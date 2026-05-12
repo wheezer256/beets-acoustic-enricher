@@ -1,0 +1,12 @@
+# Use your existing image as the base
+FROM your-existing-beets-flask-image
+
+# Install ffmpeg if it's not already there (required for sampling)
+RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
+
+# Install the Gemini SDK
+RUN pip install google-genai
+
+# The plugin will be mounted via volumes for easy updates, 
+# but you can also COPY it here if you prefer a static image:
+# COPY enricher.py /config/plugins/enricher.py

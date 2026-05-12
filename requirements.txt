@@ -1,0 +1,4 @@
+beets
+google-genai
+anthropic
+requests

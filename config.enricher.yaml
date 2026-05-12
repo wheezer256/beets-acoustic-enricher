@@ -1,0 +1,45 @@
+# Add these lines to your existing config.yaml
+
+# 1. Path where acoustic_enricher.py lives
+pluginpath:
+    - /config/plugins
+
+# 2. Add to your plugins list
+plugins:
+    - ... # your other plugins
+    - acoustic_enricher
+
+# 3. Configure the plugin
+acoustic_enricher:
+    provider: gemini           # gemini | ollama | llamacpp | anthropic
+
+    # --- Gemini (audio analysis) ---
+    model: gemini-2.5-flash
+    api_key: ${GEMINI_API_KEY}
+    # use_vertex: no
+    # project: ${GOOGLE_CLOUD_PROJECT}
+    # location: us-central1
+
+    # --- Anthropic / Claude (knowledge-based inference, NOT audio analysis) ---
+    # Claude has no audio input API. This provider sends track metadata
+    # (title, artist, album, year, genre) and asks Claude to infer
+    # mood/style/elements from its training knowledge. Works well for
+    # well-known artists; blind to the actual audio signal.
+    #
+    # provider: anthropic
+    # model: claude-sonnet-4-6   # or claude-haiku-4-5 for speed/cost
+    # anthropic_api_key: ${ANTHROPIC_API_KEY}
+
+    # --- Ollama (requires a model with audio/multimodal support) ---
+    # provider: ollama
+    # model: llava
+    # ollama_url: http://localhost:11434/api/chat
+
+    # --- llama.cpp (requires a model built with audio support) ---
+    # provider: llamacpp
+    # model: qwen-audio
+    # llama_url: http://localhost:8080/v1/chat/completions
+
+    # --- Sampling ---
+    # clip_count: 3       # clips for tracks >= 60s
+    # clip_duration: 15   # seconds per clip

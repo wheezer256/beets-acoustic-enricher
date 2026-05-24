@@ -206,6 +206,7 @@ class _OllamaProvider:
         self._log = log
         self._url = cfg['ollama_url'].get() or 'http://localhost:11434/api/chat'
         self._model = cfg['model'].get()
+        self._timeout = cfg['timeout'].get(int)
 
     def analyze(self, audio_path, metadata):
         import requests
@@ -220,7 +221,7 @@ class _OllamaProvider:
             'stream': False,
         }
         try:
-            r = requests.post(self._url, json=payload, timeout=300)
+            r = requests.post(self._url, json=payload, timeout=self._timeout)
             r.raise_for_status()
         except Exception as e:
             if _is_quota_error(e):
@@ -236,6 +237,7 @@ class _LlamaCppProvider:
         self._log = log
         self._url = cfg['llama_url'].get() or 'http://localhost:8080/v1/chat/completions'
         self._model = cfg['model'].get()
+        self._timeout = cfg['timeout'].get(int)
 
     def analyze(self, audio_path, metadata):
         import requests
@@ -255,7 +257,7 @@ class _LlamaCppProvider:
             'response_format': {'type': 'json_object'},
         }
         try:
-            r = requests.post(self._url, json=payload, timeout=300)
+            r = requests.post(self._url, json=payload, timeout=self._timeout)
             r.raise_for_status()
         except Exception as e:
             if _is_quota_error(e):
@@ -359,6 +361,8 @@ class AcousticEnricherPlugin(BeetsPlugin):
             'ollama_url':       'http://localhost:11434/api/chat',
             # llama.cpp
             'llama_url':        'http://localhost:8080/v1/chat/completions',
+            # HTTP timeout for Ollama and llama.cpp requests (seconds)
+            'timeout':          600,
             # Sampling
             'clip_count':       3,
             'clip_duration':    15,

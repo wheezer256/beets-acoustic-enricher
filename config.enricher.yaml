@@ -43,3 +43,6 @@ acoustic_enricher:
     # --- Sampling ---
     # clip_count: 3       # clips for tracks >= 60s
     # clip_duration: 15   # seconds per clip
+
+    # --- HTTP timeout (Ollama and llama.cpp only) ---
+    # timeout: 600        # seconds; increase for slow/large local models

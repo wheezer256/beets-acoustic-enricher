@@ -1,0 +1,4801 @@
+[
+{
+"id": "/m/0dgw9r",
+"name": "Human sounds",
+"child_ids": [
+"/m/09l8g",
+"/m/01w250",
+"/m/09hlz4",
+"/m/0bpl036",
+"/m/0160x5",
+"/m/0k65p",
+"/m/01jg02",
+"/m/04xp5v",
+"/t/dd00012"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/09l8g",
+"name": "Human voice",
+"child_ids": [
+"/m/09x0r",
+"/m/07p6fty",
+"/m/03qc9zr",
+"/m/02rtxlg",
+"/m/01j3sz",
+"/m/0463cq4",
+"/m/07qw_06",
+"/m/07plz5l",
+"/m/015lz1",
+"/m/02fxyj",
+"/m/07s2xch",
+"/m/07r4k75",
+"/m/01j423"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/09x0r",
+"name": "Speech",
+"child_ids": [
+"/m/05zppz",
+"/m/02zsn",
+"/m/0ytgt",
+"/m/01h8n0",
+"/m/02qldy",
+"/m/0261r1",
+"/m/0brhx"
+],
+"restrictions": []
+},
+{
+"id": "/m/05zppz",
+"name": "Male speech, man speaking",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02zsn",
+"name": "Female speech, woman speaking",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0ytgt",
+"name": "Child speech, kid speaking",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01h8n0",
+"name": "Conversation",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02qldy",
+"name": "Narration, monologue",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0261r1",
+"name": "Babbling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0brhx",
+"name": "Speech synthesizer",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07p6fty",
+"name": "Shout",
+"child_ids": [
+"/m/07q4ntr",
+"/m/07rwj3x",
+"/m/07sr1lc",
+"/m/04gy_2",
+"/t/dd00135"
+],
+"restrictions": []
+},
+{
+"id": "/m/07q4ntr",
+"name": "Bellow",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rwj3x",
+"name": "Whoop",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07sr1lc",
+"name": "Yell",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04gy_2",
+"name": "Battle cry",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00135",
+"name": "Children shouting",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03qc9zr",
+"name": "Screaming",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02rtxlg",
+"name": "Whispering",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01j3sz",
+"name": "Laughter",
+"child_ids": [
+"/t/dd00001",
+"/m/07r660_",
+"/m/07s04w4",
+"/m/07sq110",
+"/m/07rgt08"
+],
+"restrictions": []
+},
+{
+"id": "/t/dd00001",
+"name": "Baby laughter",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07r660_",
+"name": "Giggle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07s04w4",
+"name": "Snicker",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07sq110",
+"name": "Belly laugh",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rgt08",
+"name": "Chuckle, chortle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0463cq4",
+"name": "Crying, sobbing",
+"child_ids": [
+"/t/dd00002",
+"/m/07qz6j3"
+],
+"restrictions": []
+},
+{
+"id": "/t/dd00002",
+"name": "Baby cry, infant cry",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qz6j3",
+"name": "Whimper",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qw_06",
+"name": "Wail, moan",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07plz5l",
+"name": "Sigh",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/015lz1",
+"name": "Singing",
+"child_ids": [
+"/m/0l14jd",
+"/m/01swy6",
+"/m/02bk07",
+"/t/dd00003",
+"/t/dd00004",
+"/t/dd00005",
+"/t/dd00006",
+"/m/06bxc"
+],
+"restrictions": []
+},
+{
+"id": "/m/0l14jd",
+"name": "Choir",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01swy6",
+"name": "Yodeling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02bk07",
+"name": "Chant",
+"child_ids": [
+"/m/01c194"
+],
+"restrictions": []
+},
+{
+"id": "/m/01c194",
+"name": "Mantra",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00003",
+"name": "Male singing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00004",
+"name": "Female singing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00005",
+"name": "Child singing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00006",
+"name": "Synthetic singing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06bxc",
+"name": "Rapping",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02fxyj",
+"name": "Humming",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07s2xch",
+"name": "Groan",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07r4k75",
+"name": "Grunt",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01j423",
+"name": "Yawn",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01w250",
+"name": "Whistling",
+"child_ids": [
+"/m/079vc8"
+],
+"restrictions": []
+},
+{
+"id": "/m/079vc8",
+"name": "Wolf-whistling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/09hlz4",
+"name": "Respiratory sounds",
+"child_ids": [
+"/m/0lyf6",
+"/m/01b_21",
+"/m/01hsr_",
+"/m/07ppn3j"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/0lyf6",
+"name": "Breathing",
+"child_ids": [
+"/m/07mzm6",
+"/m/01d3sd",
+"/m/07s0dtb",
+"/m/07pyy8b",
+"/m/07q0yl5"
+],
+"restrictions": []
+},
+{
+"id": "/m/07mzm6",
+"name": "Wheeze",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01d3sd",
+"name": "Snoring",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07s0dtb",
+"name": "Gasp",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pyy8b",
+"name": "Pant",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07q0yl5",
+"name": "Snort",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01b_21",
+"name": "Cough",
+"child_ids": [
+"/m/0dl9sf8"
+],
+"restrictions": []
+},
+{
+"id": "/m/0dl9sf8",
+"name": "Throat clearing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01hsr_",
+"name": "Sneeze",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07ppn3j",
+"name": "Sniff",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0bpl036",
+"name": "Human locomotion",
+"child_ids": [
+"/m/06h7j",
+"/m/07qv_x_",
+"/m/07pbtc8"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/06h7j",
+"name": "Run",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qv_x_",
+"name": "Shuffle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pbtc8",
+"name": "Walk, footsteps",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0160x5",
+"name": "Digestive",
+"child_ids": [
+"/m/03cczk",
+"/m/07pdhp0",
+"/m/0939n_",
+"/m/01g90h",
+"/m/03q5_w",
+"/m/02p3nc",
+"/m/02_nn"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/03cczk",
+"name": "Chewing, mastication",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pdhp0",
+"name": "Biting",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0939n_",
+"name": "Gargling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01g90h",
+"name": "Stomach rumble",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03q5_w",
+"name": "Burping, eructation",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02p3nc",
+"name": "Hiccup",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02_nn",
+"name": "Fart",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0k65p",
+"name": "Hands",
+"child_ids": [
+"/m/025_jnm",
+"/m/0l15bq"
+],
+"restrictions": []
+},
+{
+"id": "/m/025_jnm",
+"name": "Finger snapping",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0l15bq",
+"name": "Clapping",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01jg02",
+"name": "Heart sounds, heartbeat",
+"child_ids": [
+"/m/01jg1z"
+],
+"restrictions": []
+},
+{
+"id": "/m/01jg1z",
+"name": "Heart murmur",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/04xp5v",
+"name": "Otoacoustic emission",
+"child_ids": [
+"/m/0pv6y"
+],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0pv6y",
+"name": "Tinnitus, ringing in the ears",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/t/dd00012",
+"name": "Human group actions",
+"child_ids": [
+"/m/0l15bq",
+"/m/053hz1",
+"/m/028ght",
+"/m/07rkbfh",
+"/m/03qtwd",
+"/m/07qfr4h",
+"/m/04v5dt",
+"/t/dd00013",
+"/t/dd00135"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/053hz1",
+"name": "Cheering",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/028ght",
+"name": "Applause",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rkbfh",
+"name": "Chatter",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03qtwd",
+"name": "Crowd",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qfr4h",
+"name": "Hubbub, speech noise, speech babble",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04v5dt",
+"name": "Booing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00013",
+"name": "Children playing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0jbk",
+"name": "Animal",
+"child_ids": [
+"/m/068hy",
+"/m/0ch8v",
+"/m/01280g"
+],
+"restrictions": []
+},
+{
+"id": "/m/068hy",
+"name": "Domestic animals, pets",
+"child_ids": [
+"/m/0bt9lr",
+"/m/01yrx"
+],
+"restrictions": []
+},
+{
+"id": "/m/0bt9lr",
+"name": "Dog",
+"child_ids": [
+"/m/05tny_",
+"/m/07r_k2n",
+"/m/07qf0zm",
+"/m/07rc7d9",
+"/m/0ghcn6",
+"/t/dd00136",
+"/m/07srf8z"
+],
+"restrictions": []
+},
+{
+"id": "/m/05tny_",
+"name": "Bark",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07r_k2n",
+"name": "Yip",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qf0zm",
+"name": "Howl",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rc7d9",
+"name": "Bow-wow",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0ghcn6",
+"name": "Growling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00136",
+"name": "Whimper (dog)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07srf8z",
+"name": "Bay",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01yrx",
+"name": "Cat",
+"child_ids": [
+"/m/02yds9",
+"/m/07qrkrw",
+"/m/07rjwbb",
+"/m/0f25s6",
+"/m/07r81j2",
+"/m/0ghcn6"
+],
+"restrictions": []
+},
+{
+"id": "/m/02yds9",
+"name": "Purr",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qrkrw",
+"name": "Meow",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rjwbb",
+"name": "Hiss",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0f25s6",
+"name": "Cat communication",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07r81j2",
+"name": "Caterwaul",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0ch8v",
+"name": "Livestock, farm animals, working animals",
+"child_ids": [
+"/m/03k3r",
+"/m/0ffhf",
+"/m/01xq0k1",
+"/m/068zj",
+"/m/03fwl",
+"/m/07bgp",
+"/m/025rv6n"
+],
+"restrictions": []
+},
+{
+"id": "/m/03k3r",
+"name": "Horse",
+"child_ids": [
+"/m/07rv9rh",
+"/m/07q5rw0",
+"/t/dd00139",
+"/t/dd00140"
+],
+"restrictions": []
+},
+{
+"id": "/m/07rv9rh",
+"name": "Clip-clop",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07q5rw0",
+"name": "Neigh, whinny",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00139",
+"name": "Snort (horse)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00140",
+"name": "Nicker",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0ffhf",
+"name": "Donkey, ass",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01xq0k1",
+"name": "Cattle, bovinae",
+"child_ids": [
+"/m/07rpkh9",
+"/m/0239kh",
+"/m/01hhp3"
+],
+"restrictions": []
+},
+{
+"id": "/m/07rpkh9",
+"name": "Moo",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0239kh",
+"name": "Cowbell",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01hhp3",
+"name": "Yak",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/068zj",
+"name": "Pig",
+"child_ids": [
+"/t/dd00018"
+],
+"restrictions": []
+},
+{
+"id": "/t/dd00018",
+"name": "Oink",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03fwl",
+"name": "Goat",
+"child_ids": [
+"/m/07q0h5t"
+],
+"restrictions": []
+},
+{
+"id": "/m/07q0h5t",
+"name": "Bleat",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07bgp",
+"name": "Sheep",
+"child_ids": [
+"/m/07q0h5t"
+],
+"restrictions": []
+},
+{
+"id": "/m/025rv6n",
+"name": "Fowl",
+"child_ids": [
+"/m/09b5t",
+"/m/01rd7k",
+"/m/09ddx",
+"/m/0dbvp"
+],
+"restrictions": []
+},
+{
+"id": "/m/09b5t",
+"name": "Chicken, rooster",
+"child_ids": [
+"/m/07st89h",
+"/m/07qn5dc"
+],
+"restrictions": []
+},
+{
+"id": "/m/07st89h",
+"name": "Cluck",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qn5dc",
+"name": "Crowing, cock-a-doodle-doo",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01rd7k",
+"name": "Turkey",
+"child_ids": [
+"/m/07svc2k"
+],
+"restrictions": []
+},
+{
+"id": "/m/07svc2k",
+"name": "Gobble",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/09ddx",
+"name": "Duck",
+"child_ids": [
+"/m/07qdb04"
+],
+"restrictions": []
+},
+{
+"id": "/m/07qdb04",
+"name": "Quack",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0dbvp",
+"name": "Goose",
+"child_ids": [
+"/m/07qwf61"
+],
+"restrictions": []
+},
+{
+"id": "/m/07qwf61",
+"name": "Honk",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01280g",
+"name": "Wild animals",
+"child_ids": [
+"/m/0cdnk",
+"/m/015p6",
+"/m/01z5f",
+"/m/06hps",
+"/m/03vt0",
+"/m/09ld4",
+"/m/078jl",
+"/m/032n05"
+],
+"restrictions": []
+},
+{
+"id": "/m/0cdnk",
+"name": "Roaring cats (lions, tigers)",
+"child_ids": [
+"/m/04cvmfc",
+"/m/0ghcn6"
+],
+"restrictions": []
+},
+{
+"id": "/m/04cvmfc",
+"name": "Roar",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/015p6",
+"name": "Bird",
+"child_ids": [
+"/m/020bb7",
+"/m/0h0rv",
+"/m/04s8yn",
+"/m/09d5_",
+"/m/01dwxx",
+"/m/05_wcq"
+],
+"restrictions": []
+},
+{
+"id": "/m/020bb7",
+"name": "Bird vocalization, bird call, bird song",
+"child_ids": [
+"/m/07pggtn",
+"/m/07sx8x_"
+],
+"restrictions": []
+},
+{
+"id": "/m/07pggtn",
+"name": "Chirp, tweet",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07sx8x_",
+"name": "Squawk",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0h0rv",
+"name": "Pigeon, dove",
+"child_ids": [
+"/m/07r_25d"
+],
+"restrictions": []
+},
+{
+"id": "/m/07r_25d",
+"name": "Coo",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04s8yn",
+"name": "Crow",
+"child_ids": [
+"/m/07r5c2p"
+],
+"restrictions": []
+},
+{
+"id": "/m/07r5c2p",
+"name": "Caw",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/09d5_",
+"name": "Owl",
+"child_ids": [
+"/m/07r_80w"
+],
+"restrictions": []
+},
+{
+"id": "/m/07r_80w",
+"name": "Hoot",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01dwxx",
+"name": "Gull, seagull",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05_wcq",
+"name": "Bird flight, flapping wings",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01z5f",
+"name": "Canidae, dogs, wolves",
+"child_ids": [
+"/m/07qf0zm",
+"/m/0ghcn6"
+],
+"restrictions": []
+},
+{
+"id": "/m/06hps",
+"name": "Rodents, rats, mice",
+"child_ids": [
+"/m/04rmv",
+"/m/02021",
+"/m/07r4gkf"
+],
+"restrictions": []
+},
+{
+"id": "/m/04rmv",
+"name": "Mouse",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02021",
+"name": "Chipmunk",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07r4gkf",
+"name": "Patter",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/03vt0",
+"name": "Insect",
+"child_ids": [
+"/m/09xqv",
+"/m/09f96",
+"/m/0h2mp",
+"/m/01h3n"
+],
+"restrictions": []
+},
+{
+"id": "/m/09xqv",
+"name": "Cricket",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/09f96",
+"name": "Mosquito",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0h2mp",
+"name": "Fly, housefly",
+"child_ids": [
+"/m/07pjwq1"
+],
+"restrictions": []
+},
+{
+"id": "/m/07pjwq1",
+"name": "Buzz",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01h3n",
+"name": "Bee, wasp, etc.",
+"child_ids": [
+"/m/07pjwq1"
+],
+"restrictions": []
+},
+{
+"id": "/m/09ld4",
+"name": "Frog",
+"child_ids": [
+"/m/07st88b"
+],
+"restrictions": []
+},
+{
+"id": "/m/07st88b",
+"name": "Croak",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/078jl",
+"name": "Snake",
+"child_ids": [
+"/m/07rjwbb",
+"/m/07qn4z3"
+],
+"restrictions": []
+},
+{
+"id": "/m/07qn4z3",
+"name": "Rattle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/032n05",
+"name": "Whale vocalization",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04rlf",
+"name": "Music",
+"child_ids": [
+"/m/04szw",
+"/m/0kpv1t",
+"/t/dd00027",
+"/t/dd00028",
+"/t/dd00030"
+],
+"restrictions": []
+},
+{
+"id": "/m/04szw",
+"name": "Musical instrument",
+"child_ids": [
+"/m/0fx80y",
+"/m/05148p4",
+"/m/0l14md",
+"/m/05pd6",
+"/m/01kcd",
+"/m/0l14_3",
+"/m/085jw",
+"/m/03m5k",
+"/m/0l14jd",
+"/m/0395lw",
+"/m/03qjg",
+"/m/0mkg",
+"/m/0192l",
+"/m/02bxd",
+"/m/0l14l2",
+"/m/07kc_",
+"/m/0l14t7",
+"/m/05229",
+"/m/01vj9c",
+"/m/01hgjl"
+],
+"restrictions": []
+},
+{
+"id": "/m/0fx80y",
+"name": "Plucked string instrument",
+"child_ids": [
+"/m/0342h",
+"/m/018j2",
+"/m/0jtg0",
+"/m/04rzd",
+"/m/01bns_",
+"/m/07xzm"
+],
+"restrictions": []
+},
+{
+"id": "/m/0342h",
+"name": "Guitar",
+"child_ids": [
+"/m/02sgy",
+"/m/018vs",
+"/m/042v_gx",
+"/m/06w87",
+"/m/01glhc",
+"/m/07s0s5r"
+],
+"restrictions": []
+},
+{
+"id": "/m/02sgy",
+"name": "Electric guitar",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/018vs",
+"name": "Bass guitar",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/042v_gx",
+"name": "Acoustic guitar",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06w87",
+"name": "Steel guitar, slide guitar",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01glhc",
+"name": "Tapping (guitar technique)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07s0s5r",
+"name": "Strum",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/018j2",
+"name": "Banjo",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0jtg0",
+"name": "Sitar",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04rzd",
+"name": "Mandolin",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01bns_",
+"name": "Zither",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07xzm",
+"name": "Ukulele",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05148p4",
+"name": "Keyboard (musical)",
+"child_ids": [
+"/m/05r5c",
+"/m/013y1f",
+"/m/0l14qv",
+"/m/03q5t"
+],
+"restrictions": []
+},
+{
+"id": "/m/05r5c",
+"name": "Piano",
+"child_ids": [
+"/m/01s0ps"
+],
+"restrictions": []
+},
+{
+"id": "/m/01s0ps",
+"name": "Electric piano",
+"child_ids": [
+"/m/025cbm",
+"/m/0bxl5"
+],
+"restrictions": []
+},
+{
+"id": "/m/025cbm",
+"name": "Clavinet",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0bxl5",
+"name": "Rhodes piano",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/013y1f",
+"name": "Organ",
+"child_ids": [
+"/m/03xq_f",
+"/m/03gvt"
+],
+"restrictions": []
+},
+{
+"id": "/m/03xq_f",
+"name": "Electronic organ",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03gvt",
+"name": "Hammond organ",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0l14qv",
+"name": "Synthesizer",
+"child_ids": [
+"/m/01v1d8",
+"/m/0gkd1"
+],
+"restrictions": []
+},
+{
+"id": "/m/01v1d8",
+"name": "Sampler",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0gkd1",
+"name": "Mellotron",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/03q5t",
+"name": "Harpsichord",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0l14md",
+"name": "Percussion",
+"child_ids": [
+"/m/02hnl",
+"/m/026t6",
+"/m/01qbl",
+"/m/0239kh",
+"/m/01sm1g",
+"/m/07brj",
+"/m/05r5wn",
+"/m/0mbct",
+"/m/016622",
+"/m/0j45pbj"
+],
+"restrictions": []
+},
+{
+"id": "/m/02hnl",
+"name": "Drum kit",
+"child_ids": [
+"/m/0cfdd"
+],
+"restrictions": []
+},
+{
+"id": "/m/0cfdd",
+"name": "Drum machine",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/026t6",
+"name": "Drum",
+"child_ids": [
+"/m/06rvn",
+"/m/0bm02",
+"/m/011k_j",
+"/m/01p970"
+],
+"restrictions": []
+},
+{
+"id": "/m/06rvn",
+"name": "Snare drum",
+"child_ids": [
+"/m/03t3fj",
+"/m/02k_mr"
+],
+"restrictions": []
+},
+{
+"id": "/m/03t3fj",
+"name": "Rimshot",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02k_mr",
+"name": "Drum roll",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0bm02",
+"name": "Bass drum",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/011k_j",
+"name": "Timpani",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01p970",
+"name": "Tabla",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01qbl",
+"name": "Cymbal",
+"child_ids": [
+"/m/03qtq",
+"/m/0bm0k"
+],
+"restrictions": []
+},
+{
+"id": "/m/03qtq",
+"name": "Hi-hat",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0bm0k",
+"name": "Crash cymbal",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01sm1g",
+"name": "Wood block",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07brj",
+"name": "Tambourine",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05r5wn",
+"name": "Rattle (instrument)",
+"child_ids": [
+"/m/0xzly"
+],
+"restrictions": []
+},
+{
+"id": "/m/0xzly",
+"name": "Maraca",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0mbct",
+"name": "Gong",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/016622",
+"name": "Tubular bells",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0j45pbj",
+"name": "Mallet percussion",
+"child_ids": [
+"/m/0dwsp",
+"/m/0dwtp",
+"/m/0dwt5",
+"/m/0l156b"
+],
+"restrictions": []
+},
+{
+"id": "/m/0dwsp",
+"name": "Marimba, xylophone",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0dwtp",
+"name": "Glockenspiel",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0dwt5",
+"name": "Vibraphone",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0l156b",
+"name": "Steelpan",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05pd6",
+"name": "Orchestra",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01kcd",
+"name": "Brass instrument",
+"child_ids": [
+"/m/0319l",
+"/m/07gql",
+"/m/07c6l",
+"/m/020w2",
+"/m/0y64j"
+],
+"restrictions": []
+},
+{
+"id": "/m/0319l",
+"name": "French horn",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07gql",
+"name": "Trumpet",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07c6l",
+"name": "Trombone",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/020w2",
+"name": "Cornet",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0y64j",
+"name": "Bugle",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0l14_3",
+"name": "Bowed string instrument",
+"child_ids": [
+"/m/02qmj0d",
+"/m/07y_7",
+"/m/01xqw",
+"/m/02fsn"
+],
+"restrictions": []
+},
+{
+"id": "/m/02qmj0d",
+"name": "String section",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07y_7",
+"name": "Violin, fiddle",
+"child_ids": [
+"/m/0d8_n"
+],
+"restrictions": []
+},
+{
+"id": "/m/0d8_n",
+"name": "Pizzicato",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01xqw",
+"name": "Cello",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02fsn",
+"name": "Double bass",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/085jw",
+"name": "Wind instrument, woodwind instrument",
+"child_ids": [
+"/m/0l14j_",
+"/m/06ncr",
+"/m/01wy6",
+"/m/05kms",
+"/m/01c3q"
+],
+"restrictions": []
+},
+{
+"id": "/m/0l14j_",
+"name": "Flute",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06ncr",
+"name": "Saxophone",
+"child_ids": [
+"/m/02pprs",
+"/m/03t22m"
+],
+"restrictions": []
+},
+{
+"id": "/m/02pprs",
+"name": "Alto saxophone",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/03t22m",
+"name": "Soprano saxophone",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01wy6",
+"name": "Clarinet",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05kms",
+"name": "Oboe",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01c3q",
+"name": "Bassoon",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03m5k",
+"name": "Harp",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0395lw",
+"name": "Bell",
+"child_ids": [
+"/m/03w41f",
+"/m/0239kh",
+"/m/027m70_",
+"/m/0gy1t2s",
+"/m/07n_g",
+"/m/0f8s22",
+"/m/0150b9"
+],
+"restrictions": []
+},
+{
+"id": "/m/03w41f",
+"name": "Church bell",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/027m70_",
+"name": "Jingle bell",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0gy1t2s",
+"name": "Bicycle bell",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07n_g",
+"name": "Tuning fork",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0f8s22",
+"name": "Chime",
+"child_ids": [
+"/m/026fgl"
+],
+"restrictions": []
+},
+{
+"id": "/m/026fgl",
+"name": "Wind chime",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0150b9",
+"name": "Change ringing (campanology)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03qjg",
+"name": "Harmonica",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0mkg",
+"name": "Accordion",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0192l",
+"name": "Bagpipes",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02bxd",
+"name": "Didgeridoo",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0l14l2",
+"name": "Shofar",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07kc_",
+"name": "Theremin",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0l14t7",
+"name": "Singing bowl",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05229",
+"name": "Musical ensemble",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01vj9c",
+"name": "Bass (instrument role)",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01hgjl",
+"name": "Scratching (performance technique)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0kpv1t",
+"name": "Music genre",
+"child_ids": [
+"/m/064t9",
+"/m/0glt670",
+"/m/06by7",
+"/m/06j6l",
+"/m/0gywn",
+"/m/06cqb",
+"/m/01lyv",
+"/m/02x8m",
+"/m/02w4v",
+"/m/06j64v",
+"/m/03_d0",
+"/m/026z9",
+"/m/0ggq0m",
+"/m/02lkt",
+"/m/0g293",
+"/m/0155w",
+"/m/05fw6t",
+"/m/02v2lh",
+"/m/0y4f8",
+"/m/0164x2",
+"/m/02mscn",
+"/m/028sqc",
+"/m/06rqw",
+"/m/02p0sh1",
+"/m/05rwpb"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/064t9",
+"name": "Pop music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0glt670",
+"name": "Hip hop music",
+"child_ids": [
+"/m/04j_h4",
+"/m/0n8zsc8",
+"/m/02cz_7"
+],
+"restrictions": []
+},
+{
+"id": "/m/04j_h4",
+"name": "Grime music",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0n8zsc8",
+"name": "Trap music",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/02cz_7",
+"name": "Beatboxing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06by7",
+"name": "Rock music",
+"child_ids": [
+"/m/03lty",
+"/m/05r6t",
+"/m/0dls3",
+"/m/0dl5d",
+"/m/07sbbz2",
+"/m/05w3f"
+],
+"restrictions": []
+},
+{
+"id": "/m/03lty",
+"name": "Heavy metal",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05r6t",
+"name": "Punk rock",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0dls3",
+"name": "Grunge",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0dl5d",
+"name": "Progressive rock",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07sbbz2",
+"name": "Rock and roll",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05w3f",
+"name": "Psychedelic rock",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06j6l",
+"name": "Rhythm and blues",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0gywn",
+"name": "Soul music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06cqb",
+"name": "Reggae",
+"child_ids": [
+"/m/0190y4"
+],
+"restrictions": []
+},
+{
+"id": "/m/0190y4",
+"name": "Dub",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01lyv",
+"name": "Country",
+"child_ids": [
+"/m/015y_n",
+"/m/0gg8l"
+],
+"restrictions": []
+},
+{
+"id": "/m/015y_n",
+"name": "Swing music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0gg8l",
+"name": "Bluegrass",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02x8m",
+"name": "Funk",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02w4v",
+"name": "Folk music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06j64v",
+"name": "Middle Eastern music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03_d0",
+"name": "Jazz",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/026z9",
+"name": "Disco",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0ggq0m",
+"name": "Classical music",
+"child_ids": [
+"/m/05lls"
+],
+"restrictions": []
+},
+{
+"id": "/m/05lls",
+"name": "Opera",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02lkt",
+"name": "Electronic music",
+"child_ids": [
+"/m/03mb9",
+"/m/07gxw",
+"/m/07s72n",
+"/m/029h7y",
+"/m/0283d",
+"/m/0m0jc",
+"/m/08cyft",
+"/m/0fd3y",
+"/m/07lnk",
+"/m/0m0fw",
+"/m/0bmfpc"
+],
+"restrictions": []
+},
+{
+"id": "/m/03mb9",
+"name": "House music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07gxw",
+"name": "Techno",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07s72n",
+"name": "Dubstep",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/029h7y",
+"name": "Electro",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0283d",
+"name": "Drum and bass",
+"child_ids": [
+"/m/01f9gb"
+],
+"restrictions": []
+},
+{
+"id": "/m/01f9gb",
+"name": "Oldschool jungle",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0m0jc",
+"name": "Electronica",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/08cyft",
+"name": "Electronic dance music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0fd3y",
+"name": "Ambient music",
+"child_ids": [
+"/m/052smk"
+],
+"restrictions": []
+},
+{
+"id": "/m/052smk",
+"name": "Drone music",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07lnk",
+"name": "Trance music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0m0fw",
+"name": "Noise music",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0bmfpc",
+"name": "UK garage",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0g293",
+"name": "Music of Latin America",
+"child_ids": [
+"/m/02ccj9",
+"/m/0ln16",
+"/m/0kpck",
+"/m/080nby",
+"/m/05q7ms",
+"/m/0326g"
+],
+"restrictions": []
+},
+{
+"id": "/m/02ccj9",
+"name": "Cumbia",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0ln16",
+"name": "Salsa music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0kpck",
+"name": "Soca music",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/080nby",
+"name": "Kuduro",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/05q7ms",
+"name": "Funk carioca",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0326g",
+"name": "Flamenco",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0155w",
+"name": "Blues",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05fw6t",
+"name": "Music for children",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02v2lh",
+"name": "New-age music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0y4f8",
+"name": "Vocal music",
+"child_ids": [
+"/m/0z9c",
+"/m/02bk07",
+"/m/02cz_7"
+],
+"restrictions": []
+},
+{
+"id": "/m/0z9c",
+"name": "A capella",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0164x2",
+"name": "Music of Africa",
+"child_ids": [
+"/m/0145m",
+"/m/022dgg"
+],
+"restrictions": []
+},
+{
+"id": "/m/0145m",
+"name": "Afrobeat",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/022dgg",
+"name": "Kwaito",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/02mscn",
+"name": "Christian music",
+"child_ids": [
+"/m/016cjb"
+],
+"restrictions": []
+},
+{
+"id": "/m/016cjb",
+"name": "Gospel music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/028sqc",
+"name": "Music of Asia",
+"child_ids": [
+"/m/015vgc",
+"/m/0dq0md"
+],
+"restrictions": []
+},
+{
+"id": "/m/015vgc",
+"name": "Carnatic music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0dq0md",
+"name": "Music of Bollywood",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06rqw",
+"name": "Ska",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02p0sh1",
+"name": "Traditional music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05rwpb",
+"name": "Independent music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00027",
+"name": "Musical concepts",
+"child_ids": [
+"/m/074ft",
+"/m/09dsr",
+"/m/05jcn",
+"/m/022c7z",
+"/m/01gp74",
+"/m/0b128",
+"/m/021wwz",
+"/m/0kc2j",
+"/m/03w6d1"
+],
+"restrictions": [
+"abstract",
+"blacklist"
+]
+},
+{
+"id": "/m/074ft",
+"name": "Song",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/09dsr",
+"name": "Melody",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/05jcn",
+"name": "Musical note",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/022c7z",
+"name": "Beat",
+"child_ids": [
+"/m/05xp3j"
+],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/05xp3j",
+"name": "Drum beat",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01gp74",
+"name": "Chord",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0b128",
+"name": "Harmony",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/021wwz",
+"name": "Bassline",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0kc2j",
+"name": "Loop",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/03w6d1",
+"name": "Drone",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/t/dd00028",
+"name": "Music role",
+"child_ids": [
+"/m/025td0t",
+"/m/02cjck",
+"/m/03r5q_",
+"/m/0l14gg",
+"/m/07pkxdp",
+"/m/01z7dr",
+"/m/0140xf",
+"/m/0ggx5q",
+"/m/04wptg",
+"/t/dd00029"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/025td0t",
+"name": "Background music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02cjck",
+"name": "Theme music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03r5q_",
+"name": "Jingle (music)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0l14gg",
+"name": "Soundtrack music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pkxdp",
+"name": "Lullaby",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01z7dr",
+"name": "Video game music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0140xf",
+"name": "Christmas music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0ggx5q",
+"name": "Dance music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04wptg",
+"name": "Wedding music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00029",
+"name": "Birthday music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00030",
+"name": "Music mood",
+"child_ids": [
+"/t/dd00031",
+"/t/dd00032",
+"/t/dd00033",
+"/t/dd00034",
+"/t/dd00035",
+"/t/dd00036",
+"/t/dd00037"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/t/dd00031",
+"name": "Happy music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00032",
+"name": "Funny music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00033",
+"name": "Sad music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00034",
+"name": "Tender music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00035",
+"name": "Exciting music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00036",
+"name": "Angry music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00037",
+"name": "Scary music",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/059j3w",
+"name": "Natural sounds",
+"child_ids": [
+"/m/03m9d0z",
+"/m/0jb2l",
+"/m/0838f",
+"/m/02_41"
+],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/03m9d0z",
+"name": "Wind",
+"child_ids": [
+"/m/07q8f3b",
+"/m/09t49",
+"/t/dd00092"
+],
+"restrictions": []
+},
+{
+"id": "/m/07q8f3b",
+"name": "Howl (wind)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/09t49",
+"name": "Rustling leaves",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00092",
+"name": "Wind noise (microphone)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0jb2l",
+"name": "Thunderstorm",
+"child_ids": [
+"/m/0ngt1"
+],
+"restrictions": []
+},
+{
+"id": "/m/0ngt1",
+"name": "Thunder",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0838f",
+"name": "Water",
+"child_ids": [
+"/m/06mb1",
+"/m/0j6m2",
+"/m/0j2kx",
+"/m/05kq4",
+"/m/06wzb",
+"/m/07swgks"
+],
+"restrictions": []
+},
+{
+"id": "/m/06mb1",
+"name": "Rain",
+"child_ids": [
+"/m/07r10fb",
+"/t/dd00038"
+],
+"restrictions": []
+},
+{
+"id": "/m/07r10fb",
+"name": "Raindrop",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00038",
+"name": "Rain on surface",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0j6m2",
+"name": "Stream",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0j2kx",
+"name": "Waterfall",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05kq4",
+"name": "Ocean",
+"child_ids": [
+"/m/034srq"
+],
+"restrictions": []
+},
+{
+"id": "/m/034srq",
+"name": "Waves, surf",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06wzb",
+"name": "Steam",
+"child_ids": [
+"/m/07rjwbb"
+],
+"restrictions": []
+},
+{
+"id": "/m/07swgks",
+"name": "Gurgling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02_41",
+"name": "Fire",
+"child_ids": [
+"/m/07pzfmf",
+"/m/0fjy1"
+],
+"restrictions": []
+},
+{
+"id": "/m/07pzfmf",
+"name": "Crackle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0fjy1",
+"name": "Wildfire",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00041",
+"name": "Sounds of things",
+"child_ids": [
+"/m/07yv9",
+"/m/02mk9",
+"/t/dd00071",
+"/m/0395lw",
+"/m/07pp_mv",
+"/t/dd00077",
+"/m/07k1x",
+"/m/014zdl",
+"/m/083vt",
+"/m/039jq",
+"/m/04k94",
+"/t/dd00089",
+"/t/dd00133"
+],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07yv9",
+"name": "Vehicle",
+"child_ids": [
+"/m/019jd",
+"/m/012f08",
+"/m/06d_3",
+"/m/0k5j",
+"/t/dd00061"
+],
+"restrictions": []
+},
+{
+"id": "/m/019jd",
+"name": "Boat, Water vehicle",
+"child_ids": [
+"/m/0hsrw",
+"/m/056ks2",
+"/m/02rlv9",
+"/m/06q74"
+],
+"restrictions": []
+},
+{
+"id": "/m/0hsrw",
+"name": "Sailboat, sailing ship",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/056ks2",
+"name": "Rowboat, canoe, kayak",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02rlv9",
+"name": "Motorboat, speedboat",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06q74",
+"name": "Ship",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/012f08",
+"name": "Motor vehicle (road)",
+"child_ids": [
+"/m/0k4j",
+"/m/07r04",
+"/m/01bjv",
+"/m/03j1ly",
+"/m/04_sv",
+"/m/0btp2"
+],
+"restrictions": []
+},
+{
+"id": "/m/0k4j",
+"name": "Car",
+"child_ids": [
+"/m/0912c9",
+"/m/02mfyn",
+"/m/04gxbd",
+"/m/07rknqz",
+"/m/0h9mv",
+"/t/dd00134",
+"/m/0ltv"
+],
+"restrictions": []
+},
+{
+"id": "/m/0912c9",
+"name": "Vehicle horn, car horn, honking",
+"child_ids": [
+"/m/07qv_d5"
+],
+"restrictions": []
+},
+{
+"id": "/m/07qv_d5",
+"name": "Toot",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02mfyn",
+"name": "Car alarm",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04gxbd",
+"name": "Power windows, electric windows",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rknqz",
+"name": "Skidding",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0h9mv",
+"name": "Tire squeal",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00134",
+"name": "Car passing by",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0ltv",
+"name": "Race car, auto racing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07r04",
+"name": "Truck",
+"child_ids": [
+"/m/0gvgw0",
+"/m/05x_td",
+"/m/02rhddq",
+"/m/03cl9h"
+],
+"restrictions": []
+},
+{
+"id": "/m/0gvgw0",
+"name": "Air brake",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05x_td",
+"name": "Air horn, truck horn",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02rhddq",
+"name": "Reversing beeps",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03cl9h",
+"name": "Ice cream truck, ice cream van",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01bjv",
+"name": "Bus",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03j1ly",
+"name": "Emergency vehicle",
+"child_ids": [
+"/m/04qvtq",
+"/m/012n7d",
+"/m/012ndj"
+],
+"restrictions": []
+},
+{
+"id": "/m/04qvtq",
+"name": "Police car (siren)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/012n7d",
+"name": "Ambulance (siren)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/012ndj",
+"name": "Fire engine, fire truck (siren)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04_sv",
+"name": "Motorcycle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0btp2",
+"name": "Traffic noise, roadway noise",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06d_3",
+"name": "Rail transport",
+"child_ids": [
+"/m/07jdr",
+"/m/01g50p",
+"/t/dd00048",
+"/m/0195fx"
+],
+"restrictions": []
+},
+{
+"id": "/m/07jdr",
+"name": "Train",
+"child_ids": [
+"/m/04zmvq",
+"/m/0284vy3"
+],
+"restrictions": []
+},
+{
+"id": "/m/04zmvq",
+"name": "Train whistle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0284vy3",
+"name": "Train horn",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01g50p",
+"name": "Railroad car, train wagon",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00048",
+"name": "Train wheels squealing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0195fx",
+"name": "Subway, metro, underground",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0k5j",
+"name": "Aircraft",
+"child_ids": [
+"/m/014yck",
+"/m/09ct_",
+"/m/0cmf2"
+],
+"restrictions": []
+},
+{
+"id": "/m/014yck",
+"name": "Aircraft engine",
+"child_ids": [
+"/m/04229",
+"/m/02l6bg"
+],
+"restrictions": []
+},
+{
+"id": "/m/04229",
+"name": "Jet engine",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02l6bg",
+"name": "Propeller, airscrew",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/09ct_",
+"name": "Helicopter",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0cmf2",
+"name": "Fixed-wing aircraft, airplane",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00061",
+"name": "Non-motorized land vehicle",
+"child_ids": [
+"/m/0199g",
+"/m/06_fw"
+],
+"restrictions": []
+},
+{
+"id": "/m/0199g",
+"name": "Bicycle",
+"child_ids": [
+"/m/0gy1t2s"
+],
+"restrictions": []
+},
+{
+"id": "/m/06_fw",
+"name": "Skateboard",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02mk9",
+"name": "Engine",
+"child_ids": [
+"/t/dd00065",
+"/t/dd00066",
+"/t/dd00067",
+"/m/04229",
+"/m/01h82_",
+"/t/dd00130",
+"/m/07pb8fc",
+"/m/07q2z82"
+],
+"restrictions": []
+},
+{
+"id": "/t/dd00065",
+"name": "Light engine (high frequency)",
+"child_ids": [
+"/m/08j51y",
+"/m/01yg9g",
+"/m/01j4z9"
+],
+"restrictions": []
+},
+{
+"id": "/m/08j51y",
+"name": "Dental drill, dentist's drill",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01yg9g",
+"name": "Lawn mower",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01j4z9",
+"name": "Chainsaw",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00066",
+"name": "Medium engine (mid frequency)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00067",
+"name": "Heavy engine (low frequency)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01h82_",
+"name": "Engine knocking",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/t/dd00130",
+"name": "Engine starting",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pb8fc",
+"name": "Idling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07q2z82",
+"name": "Accelerating, revving, vroom",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00071",
+"name": "Domestic sounds, home sounds",
+"child_ids": [
+"/m/02dgv",
+"/m/0642b4",
+"/m/0fqfqc",
+"/m/04brg2",
+"/m/023pjk",
+"/m/07pn_8q",
+"/m/0dxrf",
+"/m/0fx9l",
+"/m/02pjr4",
+"/g/11b630rrvh",
+"/m/02jz0l",
+"/m/0130jx",
+"/m/03dnzn",
+"/m/03wvsk",
+"/m/01jt3m",
+"/m/012xff",
+"/m/0d31p",
+"/m/01s0vc",
+"/m/0zmy2j9",
+"/m/03v3yw",
+"/m/0242l",
+"/m/05mxj0q",
+"/m/01lsmm",
+"/m/02g901",
+"/m/05rj2",
+"/m/0316dw",
+"/m/081rb"
+],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/02dgv",
+"name": "Door",
+"child_ids": [
+"/m/03wwcy",
+"/m/02y_763",
+"/m/07rjzl8",
+"/m/07r4wb8",
+"/m/07qcpgn",
+"/m/07q6cd_"
+],
+"restrictions": []
+},
+{
+"id": "/m/03wwcy",
+"name": "Doorbell",
+"child_ids": [
+"/m/07r67yg"
+],
+"restrictions": []
+},
+{
+"id": "/m/07r67yg",
+"name": "Ding-dong",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02y_763",
+"name": "Sliding door",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rjzl8",
+"name": "Slam",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07r4wb8",
+"name": "Knock",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qcpgn",
+"name": "Tap",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07q6cd_",
+"name": "Squeak",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0642b4",
+"name": "Cupboard open or close",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0fqfqc",
+"name": "Drawer open or close",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04brg2",
+"name": "Dishes, pots, and pans",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/023pjk",
+"name": "Cutlery, silverware",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pn_8q",
+"name": "Chopping (food)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0dxrf",
+"name": "Frying (food)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0fx9l",
+"name": "Microwave oven",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02pjr4",
+"name": "Blender",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/g/11b630rrvh",
+"name": "Kettle whistle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02jz0l",
+"name": "Water tap, faucet",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0130jx",
+"name": "Sink (filling or washing)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03dnzn",
+"name": "Bathtub (filling or washing)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03wvsk",
+"name": "Hair dryer",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01jt3m",
+"name": "Toilet flush",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/012xff",
+"name": "Toothbrush",
+"child_ids": [
+"/m/04fgwm"
+],
+"restrictions": []
+},
+{
+"id": "/m/04fgwm",
+"name": "Electric toothbrush",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0d31p",
+"name": "Vacuum cleaner",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01s0vc",
+"name": "Zipper (clothing)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0zmy2j9",
+"name": "Velcro, hook and loop fastener",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03v3yw",
+"name": "Keys jangling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0242l",
+"name": "Coin (dropping)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05mxj0q",
+"name": "Packing tape, duct tape",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01lsmm",
+"name": "Scissors",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02g901",
+"name": "Electric shaver, electric razor",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05rj2",
+"name": "Shuffling cards",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0316dw",
+"name": "Typing",
+"child_ids": [
+"/m/0c2wf",
+"/m/01m2v"
+],
+"restrictions": []
+},
+{
+"id": "/m/0c2wf",
+"name": "Typewriter",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01m2v",
+"name": "Computer keyboard",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/081rb",
+"name": "Writing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pp_mv",
+"name": "Alarm",
+"child_ids": [
+"/m/07cx4",
+"/m/046dlr",
+"/m/03kmc9",
+"/m/03wwcy",
+"/m/030rvx",
+"/m/01y3hg",
+"/m/0c3f7m",
+"/m/02mfyn",
+"/m/0912c9",
+"/m/0gy1t2s",
+"/m/05x_td",
+"/m/04fq5q",
+"/m/0l156k"
+],
+"restrictions": []
+},
+{
+"id": "/m/07cx4",
+"name": "Telephone",
+"child_ids": [
+"/m/07pp8cl",
+"/m/01hnzm",
+"/m/01sb50",
+"/m/02c8p",
+"/m/015jpf",
+"/m/01z47d"
+],
+"restrictions": []
+},
+{
+"id": "/m/07pp8cl",
+"name": "Telephone bell ringing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01hnzm",
+"name": "Ringtone",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01sb50",
+"name": "Cellphone buzz, vibrating alert",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02c8p",
+"name": "Telephone dialing, DTMF",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/015jpf",
+"name": "Dial tone",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01z47d",
+"name": "Busy signal",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/046dlr",
+"name": "Alarm clock",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03kmc9",
+"name": "Siren",
+"child_ids": [
+"/m/04qvtq",
+"/m/012n7d",
+"/m/012ndj",
+"/m/0dgbq"
+],
+"restrictions": []
+},
+{
+"id": "/m/0dgbq",
+"name": "Civil defense siren",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/030rvx",
+"name": "Buzzer",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01y3hg",
+"name": "Smoke detector, smoke alarm",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0c3f7m",
+"name": "Fire alarm",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04fq5q",
+"name": "Foghorn",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0l156k",
+"name": "Whistle",
+"child_ids": [
+"/g/11b630rrvh",
+"/m/06hck5"
+],
+"restrictions": []
+},
+{
+"id": "/m/06hck5",
+"name": "Steam whistle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00077",
+"name": "Mechanisms",
+"child_ids": [
+"/m/02bm9n",
+"/m/01x3z",
+"/m/0l7xg",
+"/m/05zc1",
+"/m/0llzx",
+"/m/02x984l",
+"/m/025wky1",
+"/m/024dl",
+"/m/01m4t",
+"/m/0dv5r"
+],
+"restrictions": []
+},
+{
+"id": "/m/02bm9n",
+"name": "Ratchet, pawl",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01x3z",
+"name": "Clock",
+"child_ids": [
+"/m/07qjznt",
+"/m/07qjznl"
+],
+"restrictions": []
+},
+{
+"id": "/m/07qjznt",
+"name": "Tick",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qjznl",
+"name": "Tick-tock",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0l7xg",
+"name": "Gears",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05zc1",
+"name": "Pulleys",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0llzx",
+"name": "Sewing machine",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02x984l",
+"name": "Mechanical fan",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/025wky1",
+"name": "Air conditioning",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/024dl",
+"name": "Cash register",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01m4t",
+"name": "Printer",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0dv5r",
+"name": "Camera",
+"child_ids": [
+"/m/07bjf"
+],
+"restrictions": []
+},
+{
+"id": "/m/07bjf",
+"name": "Single-lens reflex camera",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07k1x",
+"name": "Tools",
+"child_ids": [
+"/m/03l9g",
+"/m/03p19w",
+"/m/01b82r",
+"/m/02p01q",
+"/m/023vsd",
+"/m/0_ksk"
+],
+"restrictions": []
+},
+{
+"id": "/m/03l9g",
+"name": "Hammer",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/03p19w",
+"name": "Jackhammer",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01b82r",
+"name": "Sawing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02p01q",
+"name": "Filing (rasp)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/023vsd",
+"name": "Sanding",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0_ksk",
+"name": "Power tool",
+"child_ids": [
+"/m/01d380"
+],
+"restrictions": []
+},
+{
+"id": "/m/01d380",
+"name": "Drill",
+"child_ids": [
+"/m/08j51y"
+],
+"restrictions": []
+},
+{
+"id": "/m/014zdl",
+"name": "Explosion",
+"child_ids": [
+"/m/032s66",
+"/m/0g6b5",
+"/m/07qsvvw",
+"/m/07pxg6y",
+"/m/07qqyl4"
+],
+"restrictions": []
+},
+{
+"id": "/m/032s66",
+"name": "Gunshot, gunfire",
+"child_ids": [
+"/m/04zjc",
+"/m/02z32qm",
+"/m/0_1c",
+"/m/073cg4"
+],
+"restrictions": []
+},
+{
+"id": "/m/04zjc",
+"name": "Machine gun",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/02z32qm",
+"name": "Fusillade",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0_1c",
+"name": "Artillery fire",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/073cg4",
+"name": "Cap gun",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0g6b5",
+"name": "Fireworks",
+"child_ids": [
+"/g/122z_qxw"
+],
+"restrictions": []
+},
+{
+"id": "/g/122z_qxw",
+"name": "Firecracker",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qsvvw",
+"name": "Burst, pop",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pxg6y",
+"name": "Eruption",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qqyl4",
+"name": "Boom",
+"child_ids": [
+"/m/0193bn"
+],
+"restrictions": []
+},
+{
+"id": "/m/0193bn",
+"name": "Sonic boom",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/083vt",
+"name": "Wood",
+"child_ids": [
+"/m/07pczhz",
+"/m/07pl1bw",
+"/m/07qs1cx",
+"/m/07pc8l3"
+],
+"restrictions": []
+},
+{
+"id": "/m/07pczhz",
+"name": "Chop",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pl1bw",
+"name": "Splinter",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qs1cx",
+"name": "Crack",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pc8l3",
+"name": "Snap",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/039jq",
+"name": "Glass",
+"child_ids": [
+"/m/07q7njn",
+"/m/07rn7sz"
+],
+"restrictions": []
+},
+{
+"id": "/m/07q7njn",
+"name": "Chink, clink",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rn7sz",
+"name": "Shatter",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04k94",
+"name": "Liquid",
+"child_ids": [
+"/m/07rrlb6",
+"/m/07qlwh6",
+"/m/07r5v4s",
+"/m/07prgkl",
+"/m/07p7b8y",
+"/m/07qlf79",
+"/m/07ptzwd",
+"/m/07ptfmf",
+"/m/0dv3j"
+],
+"restrictions": []
+},
+{
+"id": "/m/07rrlb6",
+"name": "Splash, splatter",
+"child_ids": [
+"/m/07p6mqd"
+],
+"restrictions": []
+},
+{
+"id": "/m/07p6mqd",
+"name": "Slosh",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qlwh6",
+"name": "Squish",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07r5v4s",
+"name": "Drip",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07prgkl",
+"name": "Pour",
+"child_ids": [
+"/m/07pqc89",
+"/t/dd00088"
+],
+"restrictions": []
+},
+{
+"id": "/m/07pqc89",
+"name": "Trickle, dribble",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00088",
+"name": "Gush",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07p7b8y",
+"name": "Fill (with liquid)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qlf79",
+"name": "Spray",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07ptzwd",
+"name": "Pump (liquid)",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07ptfmf",
+"name": "Stir",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0dv3j",
+"name": "Boiling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00089",
+"name": "Miscellaneous sources",
+"child_ids": [
+"/m/0790c",
+"/m/04179zz",
+"/m/0dl83",
+"/t/dd00091"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/0790c",
+"name": "Sonar",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/04179zz",
+"name": "Duck call (hunting tool)",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0dl83",
+"name": "Arrow",
+"child_ids": [
+"/m/07rqsjt",
+"/m/07qnq_y",
+"/m/07pk7mg"
+],
+"restrictions": []
+},
+{
+"id": "/m/07rqsjt",
+"name": "Whoosh, swoosh, swish",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qnq_y",
+"name": "Thump, thud",
+"child_ids": [
+"/m/07rrh0c",
+"/t/dd00108"
+],
+"restrictions": []
+},
+{
+"id": "/m/07rrh0c",
+"name": "Thunk",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00108",
+"name": "Clunk",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pk7mg",
+"name": "Wobble",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00091",
+"name": "Sound equipment",
+"child_ids": [
+"/m/0hg7b",
+"/m/0b_fwt",
+"/m/01vfsf",
+"/m/02rr_"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/0hg7b",
+"name": "Microphone",
+"child_ids": [
+"/t/dd00092"
+],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0b_fwt",
+"name": "Electronic tuner",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01vfsf",
+"name": "Guitar amplifier",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/02rr_",
+"name": "Effects unit",
+"child_ids": [
+"/m/07m2kt"
+],
+"restrictions": []
+},
+{
+"id": "/m/07m2kt",
+"name": "Chorus effect",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00133",
+"name": "Specific impact sounds",
+"child_ids": [
+"/m/018w8"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/018w8",
+"name": "Basketball bounce",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00098",
+"name": "Source-ambiguous sounds",
+"child_ids": [
+"/t/dd00099",
+"/t/dd00109",
+"/t/dd00110",
+"/m/05n1m",
+"/m/028v0c",
+"/t/dd00122"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/t/dd00099",
+"name": "Generic impact sounds",
+"child_ids": [
+"/m/07pws3f",
+"/m/07ryjzk",
+"/m/07rdhzs",
+"/m/07pjjrj",
+"/m/07pc8lb",
+"/m/07pqn27",
+"/m/07r4wb8",
+"/m/07qcpgn",
+"/m/07qnq_y",
+"/m/07rbp7_",
+"/m/07pyf11"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/07pws3f",
+"name": "Bang",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07ryjzk",
+"name": "Slap, smack",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rdhzs",
+"name": "Whack, thwack",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pjjrj",
+"name": "Smash, crash",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pc8lb",
+"name": "Breaking",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pqn27",
+"name": "Bouncing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rbp7_",
+"name": "Whip",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pyf11",
+"name": "Flap",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00109",
+"name": "Surface contact",
+"child_ids": [
+"/m/07qb_dv",
+"/m/07qv4k0",
+"/m/07pdjhy",
+"/m/07s8j8t",
+"/m/07pt6mm"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/07qb_dv",
+"name": "Scratch",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qv4k0",
+"name": "Scrape",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pdjhy",
+"name": "Rub",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07s8j8t",
+"name": "Roll",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07pt6mm",
+"name": "Grind",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00110",
+"name": "Deformable shell",
+"child_ids": [
+"/m/07plct2",
+"/t/dd00112",
+"/m/07qcx4z"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/07plct2",
+"name": "Crushing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00112",
+"name": "Crumpling, crinkling",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qcx4z",
+"name": "Tearing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/05n1m",
+"name": "Onomatopoeia",
+"child_ids": [
+"/t/dd000138",
+"/m/07rjwbb",
+"/m/07qh7jl",
+"/m/07qn4z3",
+"/m/07rqsjt",
+"/m/07qwyj0",
+"/m/07s34ls",
+"/m/07qmpdm",
+"/m/07p9k1k",
+"/m/07qc9xj",
+"/m/07phhsh",
+"/m/07r_r9m",
+"/m/07qyrcz",
+"/m/07qfgpx",
+"/t/dd00118",
+"/m/07q34h3",
+"/m/07rcgpl",
+"/m/07qlwh6",
+"/m/07p78v5",
+"/t/dd00121",
+"/m/07pzfmf",
+"/m/07s12q4",
+"/m/07qs1cx",
+"/m/07pc8l3"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/t/dd000138",
+"name": "Brief tone",
+"child_ids": [
+"/m/02fs_r",
+"/m/07qwdck",
+"/m/07phxs1",
+"/m/07rv4dm",
+"/m/07rpk1c",
+"/m/07pggtn",
+"/m/07pjwq1",
+"/m/07q6cd_",
+"/m/07s02z0",
+"/m/07q8k13"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/02fs_r",
+"name": "Beep, bleep",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qwdck",
+"name": "Ping",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07phxs1",
+"name": "Ding",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rv4dm",
+"name": "Clang",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rpk1c",
+"name": "Twang",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07s02z0",
+"name": "Squeal",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07q8k13",
+"name": "Screech",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qh7jl",
+"name": "Creak",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qwyj0",
+"name": "Rustle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07s34ls",
+"name": "Whir",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qmpdm",
+"name": "Clatter",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07p9k1k",
+"name": "Sizzle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qc9xj",
+"name": "Clicking",
+"child_ids": [
+"/m/07qjznt",
+"/m/07rv9rh",
+"/m/07rwm0c"
+],
+"restrictions": []
+},
+{
+"id": "/m/07rwm0c",
+"name": "Clickety-clack",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07phhsh",
+"name": "Rumble",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07r_r9m",
+"name": "Blare",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07qyrcz",
+"name": "Plop",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07qfgpx",
+"name": "Jingle, tinkle",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00118",
+"name": "Fizz",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07q34h3",
+"name": "Puff",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07rcgpl",
+"name": "Hum",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07p78v5",
+"name": "Zing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00121",
+"name": "Boing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07s12q4",
+"name": "Crunch",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/028v0c",
+"name": "Silence",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00122",
+"name": "Other sourceless",
+"child_ids": [
+"/m/01v_m0",
+"/m/0c1dj",
+"/m/07pt_g0",
+"/m/01fhw5",
+"/m/017gp",
+"/m/05szwhw"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/01v_m0",
+"name": "Sine wave",
+"child_ids": [
+"/m/0b9m1",
+"/m/0hdsk"
+],
+"restrictions": []
+},
+{
+"id": "/m/0b9m1",
+"name": "Harmonic",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0hdsk",
+"name": "Chirp tone",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0c1dj",
+"name": "Sound effect",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07pt_g0",
+"name": "Pulse",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01fhw5",
+"name": "Infrasound",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/017gp",
+"name": "Bass (frequency range)",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/05szwhw",
+"name": "Ringing (of resonator)",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/t/dd00123",
+"name": "Channel, environment and background",
+"child_ids": [
+"/t/dd00093",
+"/m/096m7z",
+"/m/07bm98"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/t/dd00093",
+"name": "Acoustic environment",
+"child_ids": [
+"/t/dd00125",
+"/t/dd00126",
+"/t/dd00127",
+"/t/dd00128",
+"/t/dd00129",
+"/m/01b9nn",
+"/m/01jnbd"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/t/dd00125",
+"name": "Inside, small room",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00126",
+"name": "Inside, large room or hall",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00127",
+"name": "Inside, public space",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00128",
+"name": "Outside, urban or manmade",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/t/dd00129",
+"name": "Outside, rural or natural",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01b9nn",
+"name": "Reverberation",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01jnbd",
+"name": "Echo",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/096m7z",
+"name": "Noise",
+"child_ids": [
+"/m/093_4n",
+"/m/07qfr4h",
+"/m/07szfh9",
+"/m/0chx_",
+"/m/0cj0r",
+"/m/07p_0gm",
+"/m/01jwx6"
+],
+"restrictions": []
+},
+{
+"id": "/m/093_4n",
+"name": "Background noise",
+"child_ids": [
+"/m/06_y0by",
+"/m/09d1b1",
+"/m/07rgkc5",
+"/m/06xkwv",
+"/m/0g12c5",
+"/m/08p9q4"
+],
+"restrictions": []
+},
+{
+"id": "/m/06_y0by",
+"name": "Environmental noise",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/09d1b1",
+"name": "Tape hiss",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07rgkc5",
+"name": "Static",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06xkwv",
+"name": "Mains hum",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0g12c5",
+"name": "Distortion",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/08p9q4",
+"name": "Sidetone",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07szfh9",
+"name": "Cacophony",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0chx_",
+"name": "White noise",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0cj0r",
+"name": "Pink noise",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/07p_0gm",
+"name": "Throbbing",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/01jwx6",
+"name": "Vibration",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07bm98",
+"name": "Sound reproduction",
+"child_ids": [
+"/m/07c52",
+"/m/06bz3",
+"/m/0cfpc",
+"/m/01b7fy",
+"/m/025l19",
+"/m/0174nj",
+"/m/01www",
+"/m/04zc0"
+],
+"restrictions": [
+"abstract"
+]
+},
+{
+"id": "/m/07c52",
+"name": "Television",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/06bz3",
+"name": "Radio",
+"child_ids": [],
+"restrictions": []
+},
+{
+"id": "/m/0cfpc",
+"name": "Loudspeaker",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01b7fy",
+"name": "Headphones",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/025l19",
+"name": "Recording",
+"child_ids": [
+"/m/07hvw1"
+],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/07hvw1",
+"name": "Field recording",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/0174nj",
+"name": "Gramophone record",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/01www",
+"name": "Compact disc",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+},
+{
+"id": "/m/04zc0",
+"name": "MP3",
+"child_ids": [],
+"restrictions": [
+"blacklist"
+]
+}
+]

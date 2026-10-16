@@ -1,0 +1,37 @@
+# Common free-text labels that mean an existing AudioSet class.
+# Only unambiguous mappings belong here; anything else is dropped as unmapped.
+Kick drum: Bass drum
+Kick: Bass drum
+Reverb: Reverberation
+Electric bass: Bass guitar
+Bass line: Bass guitar
+Electronic drum: Drum machine
+Electronic drum machine: Drum machine
+Drum kit: Drum kit
+Drums: Drum
+Vocals: Singing
+Vocal: Singing
+Male vocals: Male singing
+Female vocals: Female singing
+Male vocal: Male singing
+Female vocal: Female singing
+Spoken word: Speech
+Rap: Rapping
+Synth: Synthesizer
+Synth pad: Synthesizer
+Keys: Keyboard (musical)
+Electric guitar: Electric guitar
+Acoustic guitar: Acoustic guitar
+Strings: Bowed string instrument
+String section: String section
+Field recording: Environmental noise
+Noise: Noise
+Hi-hat: Hi-hat
+Keyboard: Keyboard (musical)
+Keyboard instrument: Keyboard (musical)
+Keyboards: Keyboard (musical)
+Voice: Human voice
+Vocal sounds: Human voice
+Droning: Drone music
+Delay: Echo
+Tape delay: Echo

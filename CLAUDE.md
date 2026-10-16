@@ -27,29 +27,27 @@ beet listen -n album:"Dummy"               # dry-run, no writes
 
 ## Architecture
 
-Everything lives in `acoustic_enricher.py`. The file is structured in three layers:
+The plugin is the package `acoustic_enricher/` (point beets' `pluginpath` at the repo root):
 
-1. **Prompts** (`_AUDIO_PROMPT`, `_TEXT_PROMPT`) — the LLM instructions. `_AUDIO_PROMPT` is sent with actual audio (Gemini, Ollama, llama.cpp); `_TEXT_PROMPT` is sent with track metadata only (Anthropic, which has no audio API).
+- `vocab.py` — loads the controlled vocabularies in `data/` (moods with circumplex
+  coordinates, Discogs styles, MusicBrainz genres, AudioSet ontology + aliases) and
+  `canonicalize()`s a raw provider result. No beets import; unit-testable.
+- `schema.py` — prompts and the JSON schema generated from the vocabularies;
+  `SCHEMA_VERSION` is stored per track as `listen_ver`.
+- `providers.py` — gemini / openai(-compatible) / llamacpp / ollama / anthropic;
+  each `analyze(audio_path, metadata) -> dict` and sets `last_usage`.
+- `plugin.py` — the beets plugin: `listen`, `listen-normalize`, field writes, clip
+  extraction (ffmpeg input seeking), ledger.
+- `batch.py` — `listen-batch` (Gemini Batch API): chunked JSONL submit with cost cap,
+  status, collect/ingest through the same canonicalisation path.
 
-2. **Provider classes** (`_GeminiProvider`, `_OllamaProvider`, `_LlamaCppProvider`, `_AnthropicProvider`) — each implements a single `analyze(audio_path, metadata)` method. All audio providers receive the temp MP3 concatenated by ffmpeg. Quota errors are normalized to `_QuotaError` so the batch loop can stop cleanly regardless of provider.
-
-3. **`AcousticEnricherPlugin`** (the beets plugin) — registers the `listen` command and the custom item fields, lazily initializes the provider, drives the per-track loop with skip/force/failure logic, slices audio via `_ffmpeg_slice`, and writes tags in two steps: `item.store()` for beets DB fields then `item.write()` for audio file tags, followed by `os.utime()` to restore mtime so Roon won't re-import.
-
-## Tag writing details
-
-The plugin writes to two destinations per track:
-- **Audio file**: `mood → TMOO` (MP3) / `MOOD` (FLAC/Ogg) and `roontracktag → TXXX:ROONTRACKTAG` — these are the tags Roon reads
-- **Beets DB only**: `listen_style`, `listen_elements` (JSON array), `listen_energy_shape/peak/narrative`, `listen_provider`, `listen_model`
-
-The `roontracktag` value is formatted as `style:<style>; arc:<shape>; peak:<level>; <AudioSet element>; ...`
-
-`ROONTRACKTAG` is registered as a custom `MediaField` at plugin init via beets' `mediafile` API, since it's not a standard field.
+Tests live in `tests/` (`pytest`).
 
 ## Adding a new provider
 
 1. Add a class with `__init__(self, cfg, log)` and `analyze(self, audio_path, metadata) -> dict`
-2. Wrap provider-specific quota/rate-limit exceptions in `_QuotaError`
-3. Return a dict with keys: `mood` (str), `style` (str), `elements` (list[str]), `energy_arc` (dict with `shape`, `base`, `peak`, `trajectory`)
-4. Register it in the `_PROVIDERS` dict
+2. Wrap provider-specific quota/rate-limit exceptions in `QuotaError`
+3. Return a dict with keys: `mood` (list[str]), `style` (list[str] or str), `elements` (list[str]), `energy_arc` (dict with `shape`, `base`, `peak`, `trajectory`); set `self.last_usage`
+4. Register it in `PROVIDERS` (and `AUDIO_PROVIDERS` if it hears audio)
 5. Add config defaults in `AcousticEnricherPlugin.__init__` if the provider needs new config keys
 6. Document it in `config.enricher.yaml`

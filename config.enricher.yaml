@@ -1,48 +1,58 @@
-# Add these lines to your existing config.yaml
+# Add to your beets config.yaml
 
-# 1. Path where acoustic_enricher.py lives
 pluginpath:
-    - /config/plugins
+  - /path/to/beets-acoustic-enricher     # the repository root
 
-# 2. Add to your plugins list
 plugins:
-    - ... # your other plugins
-    - acoustic_enricher
+  - acoustic_enricher
 
-# 3. Configure the plugin
 acoustic_enricher:
-    provider: gemini           # gemini | ollama | llamacpp | anthropic
+  provider: gemini            # gemini | openai | llamacpp | ollama | anthropic
+  model: gemini-3.5-flash-lite
 
-    # --- Gemini (audio analysis) ---
-    model: gemini-2.5-flash
-    api_key: ${GEMINI_API_KEY}
-    # use_vertex: no
-    # project: ${GOOGLE_CLOUD_PROJECT}
-    # location: us-central1
+  # --- Gemini (AI Studio key or Vertex AI) ---
+  api_key: ${GEMINI_API_KEY}  # or api_key_file: /run/secrets/gemini
+  # use_vertex: no
+  # project: ${GOOGLE_CLOUD_PROJECT}
+  # location: us-central1
+  thinking_budget: 0          # Gemini 2.x: 0 = no thinking tokens (cheaper); -1 = model default
+  thinking_level: minimal     # Gemini 3.x: minimal|low|medium|high; '' = model default
 
-    # --- Anthropic / Claude (knowledge-based inference, NOT audio analysis) ---
-    # Claude has no audio input API. This provider sends track metadata
-    # (title, artist, album, year, genre) and asks Claude to infer
-    # mood/style/elements from its training knowledge. Works well for
-    # well-known artists; blind to the actual audio signal.
-    #
-    # provider: anthropic
-    # model: claude-sonnet-4-6   # or claude-haiku-4-5 for speed/cost
-    # anthropic_api_key: ${ANTHROPIC_API_KEY}
+  # --- OpenAI-compatible endpoint (LiteLLM proxy, vLLM, OpenRouter, ...) ---
+  # provider: openai
+  # openai_url: http://localhost:4000/v1/chat/completions
+  # openai_api_key_file: /run/secrets/litellm_key   # or openai_api_key / OPENAI_API_KEY
+  # model: gemini-flash        # the endpoint's model name/alias
+  # reasoning_effort: disable  # '' to omit
+  # structured_output: yes     # json_schema response_format; 'no' -> json_object
 
-    # --- Ollama (requires a model with audio/multimodal support) ---
-    # provider: ollama
-    # model: llava
-    # ollama_url: http://localhost:11434/api/chat
+  # --- llama.cpp / Ollama (local, audio-capable model) ---
+  # provider: llamacpp
+  # llama_url: http://localhost:8080/v1/chat/completions
+  # provider: ollama
+  # ollama_url: http://localhost:11434/api/chat
+  # timeout: 600
 
-    # --- llama.cpp (requires a model built with audio support) ---
-    # provider: llamacpp
-    # model: qwen-audio
-    # llama_url: http://localhost:8080/v1/chat/completions
+  # --- Anthropic (metadata-only inference, no audio) ---
+  # provider: anthropic
+  # model: claude-sonnet-4-6
+  # anthropic_api_key: ${ANTHROPIC_API_KEY}
 
-    # --- Sampling ---
-    # clip_count: 3       # clips for tracks >= 60s
-    # clip_duration: 15   # seconds per clip
+  # --- Sampling ---
+  # clip_count: 3             # clips for tracks >= 60 s
+  # clip_duration: 15         # seconds per clip
 
-    # --- HTTP timeout (Ollama and llama.cpp only) ---
-    # timeout: 600        # seconds; increase for slow/large local models
+  # --- Writing ---
+  # db_only: no               # yes: beets DB only, never touch audio files
+  # preserve_mtime: yes       # restore file mtime after writing tags
+
+  # --- Accounting / batch ---
+  # ledger: ~/.config/beets/listen-ledger.jsonl
+  # batch_dir: ''             # default <beets config dir>/listen-batches
+  # batch_chunk: 1000
+  # batch_max_usd: 10         # hard cap on committed batch spend
+  # batch_discount: 0.5
+  # prices:                   # USD per 1M tokens (list price) overrides
+  #   gemini-2.5-flash: {audio: 1.00, text: 0.30, output: 2.50}
+
+  # max_consecutive_failures: 0

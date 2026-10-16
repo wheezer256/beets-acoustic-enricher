@@ -1,0 +1,77 @@
+# Facet A of the mood/experience ontology v3: what mood the music EXPRESSES (perceived).
+# Coordinates authored for this plugin on Russell (1980) valence/arousal plus Mehrabian
+# dominance (-1 overwhelmed .. +1 in control). The LLM picks 1-3 terms; aliases map
+# variants back. Sound-character words (hypnotic, cinematic...) moved to facet F.
+
+version: 3
+terms:
+  # --- joy ---
+  euphoric:      {valence: 0.90, arousal: 0.85, dominance: 0.50, parent: joy}
+  exhilarated:   {valence: 0.80, arousal: 0.90, dominance: 0.50, parent: joy}
+  joyful:        {valence: 0.85, arousal: 0.55, dominance: 0.40, aliases: [happy, cheerful, jubilant, elated], parent: joy}
+  uplifting:     {valence: 0.75, arousal: 0.45, dominance: 0.40, aliases: [inspiring, anthemic], parent: joy}
+  carefree:      {valence: 0.70, arousal: 0.30, dominance: 0.30, parent: joy}
+  energetic:     {valence: 0.50, arousal: 0.80, dominance: 0.40, aliases: [lively, vibrant], parent: joy}
+  # --- power ---
+  triumphant:    {valence: 0.80, arousal: 0.70, dominance: 0.80, parent: power}
+  confident:     {valence: 0.55, arousal: 0.50, dominance: 0.80, aliases: [swaggering, bold, assertive], parent: power}
+  defiant:       {valence: 0.10, arousal: 0.70, dominance: 0.90, parent: power}
+  grandiose:     {valence: 0.40, arousal: 0.70, dominance: 0.70, aliases: [majestic, monumental, epic], parent: power}
+  dignified:     {valence: 0.30, arousal: -0.20, dominance: 0.60, aliases: [stately, ceremonial], parent: power}
+  # --- tenderness ---
+  tender:        {valence: 0.65, arousal: -0.50, dominance: -0.10, aliases: [intimate, delicate, loving], parent: tenderness}
+  warm:          {valence: 0.60, arousal: -0.30, dominance: 0.10, aliases: [cozy, comforting], parent: tenderness}
+  romantic:      {valence: 0.60, arousal: -0.10, dominance: 0.00, parent: tenderness}
+  vulnerable:    {valence: -0.10, arousal: -0.30, dominance: -0.60, parent: tenderness}
+  # --- peace ---
+  serene:        {valence: 0.65, arousal: -0.75, dominance: 0.10, aliases: [tranquil, still], parent: peace}
+  peaceful:      {valence: 0.70, arousal: -0.70, dominance: 0.10, aliases: [soothing], parent: peace}
+  calm:          {valence: 0.55, arousal: -0.70, dominance: 0.10, aliases: [gentle, restful], parent: peace}
+  relaxed:       {valence: 0.60, arousal: -0.60, dominance: 0.20, aliases: [laid-back, chill, easygoing], parent: peace}
+  mellow:        {valence: 0.45, arousal: -0.55, dominance: 0.10, aliases: [smooth, soft], parent: peace}
+  dreamy:        {valence: 0.40, arousal: -0.50, dominance: -0.20, aliases: [hazy, floating, woozy], parent: peace}
+  ethereal:      {valence: 0.35, arousal: -0.45, dominance: -0.20, aliases: [airy, celestial], parent: peace}
+  spiritual:     {valence: 0.45, arousal: -0.30, dominance: 0.00, aliases: [devotional, sacred], parent: peace}
+  hopeful:       {valence: 0.60, arousal: 0.10, dominance: 0.20, aliases: [optimistic], parent: peace}
+  # --- sadness ---
+  sad:           {valence: -0.75, arousal: -0.50, dominance: -0.40, aliases: [sorrowful, heartbroken], parent: sadness}
+  melancholic:   {valence: -0.60, arousal: -0.40, dominance: -0.30, aliases: [melancholy, mournful], parent: sadness}
+  somber:        {valence: -0.60, arousal: -0.50, dominance: -0.10, aliases: [sombre, grave], parent: sadness}
+  desolate:      {valence: -0.80, arousal: -0.60, dominance: -0.50, aliases: [bleak, barren, empty], parent: sadness}
+  lonely:        {valence: -0.65, arousal: -0.45, dominance: -0.50, aliases: [lonesome, isolated], parent: sadness}
+  wistful:       {valence: -0.30, arousal: -0.40, dominance: -0.30, aliases: [longing], parent: sadness}
+  resigned:      {valence: -0.40, arousal: -0.50, dominance: -0.40, aliases: [weary], parent: sadness}
+  bitter:        {valence: -0.60, arousal: 0.20, dominance: 0.20, parent: sadness}
+  # --- unease ---
+  tense:         {valence: -0.50, arousal: 0.70, dominance: -0.20, aliases: [suspenseful, uneasy, nervous], parent: unease}
+  anxious:       {valence: -0.60, arousal: 0.60, dominance: -0.50, aliases: [restless, agitated], parent: unease}
+  frantic:       {valence: -0.35, arousal: 0.90, dominance: -0.30, aliases: [hectic, frenzied, manic], parent: unease}
+  menacing:      {valence: -0.60, arousal: 0.55, dominance: 0.60, aliases: [threatening, sinister], parent: unease}
+  ominous:       {valence: -0.55, arousal: 0.40, dominance: -0.10, aliases: [foreboding, apocalyptic], parent: unease}
+  eerie:         {valence: -0.45, arousal: 0.10, dominance: -0.30, aliases: [creepy, unsettling], parent: unease}
+  scary:         {valence: -0.70, arousal: 0.70, dominance: -0.70, aliases: [frightening, terrifying], parent: unease}
+  # --- anger ---
+  angry:         {valence: -0.75, arousal: 0.80, dominance: 0.60, aliases: [furious, enraged], parent: anger}
+  aggressive:    {valence: -0.45, arousal: 0.85, dominance: 0.70, aliases: [hostile, fierce, violent], parent: anger}
+  # --- shadow ---
+  dark:          {valence: -0.50, arousal: 0.00, dominance: 0.00, aliases: [gloomy, murky, gothic], parent: shadow}
+  brooding:      {valence: -0.45, arousal: -0.10, dominance: 0.00, aliases: [moody, sullen], parent: shadow}
+  haunting:      {valence: -0.35, arousal: -0.10, dominance: -0.20, aliases: [spectral, ghostly], parent: shadow}
+  mysterious:    {valence: -0.10, arousal: 0.05, dominance: -0.10, aliases: [enigmatic, cryptic], parent: shadow}
+  # --- wit ---
+  playful:       {valence: 0.70, arousal: 0.45, dominance: 0.30, aliases: [whimsical, fun], parent: wit}
+  humorous:      {valence: 0.70, arousal: 0.40, dominance: 0.30, aliases: [funny, quirky, comic], parent: wit}
+  wry:           {valence: 0.10, arousal: 0.00, dominance: 0.40, aliases: [ironic, sardonic], parent: wit}
+  # --- desire ---
+  flirtatious:   {valence: 0.65, arousal: 0.40, dominance: 0.30, aliases: [coquettish, teasing], parent: desire}
+  seductive:     {valence: 0.45, arousal: 0.20, dominance: 0.60, aliases: [alluring], parent: desire}
+  sensual:       {valence: 0.55, arousal: 0.10, dominance: 0.20, aliases: [sultry, sexy], parent: desire}
+  erotic:        {valence: 0.50, arousal: 0.50, dominance: 0.30, aliases: [lustful], parent: desire}
+  yearning:      {valence: -0.20, arousal: 0.20, dominance: -0.40, aliases: [pining, lovesick], parent: desire}
+  obsessive:     {valence: -0.40, arousal: 0.50, dominance: -0.20, aliases: [possessive, infatuated], parent: desire}
+  devoted:       {valence: 0.60, arousal: -0.10, dominance: 0.10, aliases: [adoring], parent: desire}
+  # --- reflection ---
+  contemplative: {valence: 0.15, arousal: -0.50, dominance: 0.00, aliases: [reflective, meditative, pensive], parent: reflection}
+  introspective: {valence: 0.00, arousal: -0.45, dominance: -0.10, parent: reflection}
+  nostalgic:     {valence: 0.10, arousal: -0.35, dominance: -0.10, aliases: [reminiscent], parent: reflection}
+  bittersweet:   {valence: -0.10, arousal: -0.25, dominance: -0.10, parent: reflection}

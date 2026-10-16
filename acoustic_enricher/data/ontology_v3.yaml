@@ -1,0 +1,611 @@
+version: 3
+facets:
+  felt:
+    question: What does it make a listener feel? (induced, 0-2 terms; kept separate from A)
+    max: 2
+    terms:
+      moved:
+        parent: wonder
+        def: Touched, emotionally stirred (GEMS wonder).
+      awe:
+        parent: wonder
+        def: Vastness that dwarfs you (Cowen & Keltner awe).
+      amazed:
+        parent: wonder
+        def: Dazzled, astonished by what you hear.
+        aliases:
+        - dazzled
+      transcendent:
+        parent: transcendence
+        def: Lifted out of the everyday; spiritual feeling (GEMS).
+      entranced:
+        parent: transcendence
+        def: Absorbed, lost in it, time disappears (Cowen entrancement).
+        aliases:
+        - absorbed
+        - spellbound
+      overwhelmed:
+        parent: transcendence
+        def: Too much in a good way; flooded (GEMS).
+      chills:
+        parent: transcendence
+        def: Goosebumps / frisson moments.
+        aliases:
+        - frisson
+        - goosebumps
+      affectionate:
+        parent: tenderness
+        def: Warm fondness towards someone (GEMS).
+      in_love:
+        parent: tenderness
+        def: Being in love (GEMS).
+      softened:
+        parent: tenderness
+        def: Disarmed, softened-up (GEMS).
+      desire:
+        parent: tenderness
+        def: Wanting, craving (Cowen & Keltner craving/sexual desire).
+      sentimental:
+        parent: nostalgia
+        def: Fond, slightly teary remembering (GEMS).
+      reminiscing:
+        parent: nostalgia
+        def: Carried back to a particular time or place.
+      longing:
+        parent: nostalgia
+        def: Yearning for what is missing.
+      soothed:
+        parent: peacefulness
+        def: Calmed down, eased (GEMS).
+      at_peace:
+        parent: peacefulness
+        def: Settled, nothing needed.
+      comforted:
+        parent: peacefulness
+        def: Held, consoled, safe.
+        aliases:
+        - consoled
+      meditative:
+        parent: peacefulness
+        def: Quiet, focused stillness of mind (GEMS).
+      empowered:
+        parent: power
+        def: Strong, capable, ready (GEMS strong/heroic).
+        aliases:
+        - strong
+        - heroic
+      energized:
+        parent: power
+        def: Charged up, awake (GEMS energetic).
+        aliases:
+        - stimulated
+      fired_up:
+        parent: power
+        def: Fiery, combative energy (GEMS fiery).
+      joyful:
+        parent: joyful_activation
+        def: Joy rising in the listener.
+      urge_to_move:
+        parent: joyful_activation
+        def: Can't sit still; want to dance (GEMS dancing, BRECVEMA entrainment).
+        aliases:
+        - dancing
+      amused:
+        parent: joyful_activation
+        def: Laughing, entertained (GEMS amused, Cowen amusing).
+      released:
+        parent: joyful_activation
+        def: 'Catharsis: tension let go, cleansed.'
+        aliases:
+        - catharsis
+        - relief
+      unsettled:
+        parent: tension
+        def: Uneasy, on edge (GEMS tense/nervous).
+      agitated:
+        parent: tension
+        def: Stirred up, impatient, irritated (GEMS agitated/irritated).
+        aliases:
+        - irritated
+        - impatient
+      dread:
+        parent: tension
+        def: Fear of what is coming (Cowen scary/anxious).
+      sorrow:
+        parent: sadness
+        def: Sadness in the listener (GEMS sad/sorrowful).
+      empathic_pain:
+        parent: sadness
+        def: Hurting on someone else's behalf (Cowen & Keltner).
+      grief:
+        parent: sadness
+        def: Mourning, loss felt as one's own.
+  use:
+    question: 'What occasion or use does it suit? (0-3 terms) — Schäfer: arousal/mood regulation, self-awareness, social relatedness'
+    max: 3
+    terms:
+      focus:
+        label: Focus
+        parent: regulate
+      exercise_workout:
+        label: Exercise/Workout
+        parent: regulate
+      meditation:
+        label: Meditation
+        parent: regulate
+      sleep:
+        label: Sleep (Sweet Dreams)
+        parent: regulate
+      stay_in_bed:
+        label: Stay in Bed
+        parent: regulate
+      healing_comfort:
+        label: Healing/Comfort
+        parent: regulate
+      motivation:
+        label: Motivation
+        parent: regulate
+      monday_morning:
+        label: Monday Morning
+        parent: regulate
+      dance_party:
+        label: Dance Party
+        parent: social
+      dancing:
+        label: Dancing
+        parent: social
+      club:
+        label: Club
+        parent: social
+      house_party:
+        label: House Party (Partying)
+        parent: social
+      pool_party:
+        label: Pool Party
+        parent: social
+      small_gathering:
+        label: Small Gathering
+        parent: social
+      classy_gatherings:
+        label: Classy Gatherings
+        parent: social
+      dinner_ambiance:
+        label: Dinner Ambiance
+        parent: social
+      family_gatherings:
+        label: Family Gatherings
+        parent: social
+      girls_night_out:
+        label: Girls Night Out
+        parent: social
+      guys_night_out:
+        label: Guys Night Out
+        parent: social
+      barbeque:
+        label: Barbeque
+        parent: social
+      picnic:
+        label: Picnic
+        parent: social
+      tgif:
+        label: TGIF
+        parent: social
+      day_driving:
+        label: Day Driving
+        parent: journey
+      night_driving:
+        label: Night Driving
+        parent: journey
+      long_walk:
+        label: Long Walk
+        parent: journey
+      travel:
+        label: Travel
+        parent: journey
+      vacation:
+        label: Vacation
+        parent: journey
+      romance:
+        label: Romance (evening)
+        parent: intimacy
+      slow_dance:
+        label: Slow Dance
+        parent: intimacy
+      seduction:
+        label: Seduction
+        parent: intimacy
+      reflection:
+        label: Reflection
+        parent: reflection
+      reminiscing:
+        label: Reminiscing
+        parent: reflection
+      solitude:
+        label: Solitude
+        parent: reflection
+      catharsis:
+        label: Catharsis (release)
+        parent: reflection
+      wedding:
+        label: Wedding
+        parent: ritual
+      funeral:
+        label: Funeral
+        parent: ritual
+      graduation:
+        label: Graduation
+        parent: ritual
+      prom:
+        label: Prom
+        parent: ritual
+      birthday:
+        label: Birthday
+        parent: ritual
+      anniversary:
+        label: Anniversary
+        parent: ritual
+      worship:
+        label: Worship (Church)
+        parent: ritual
+      protest:
+        label: Protest (march)
+        parent: ritual
+      christmas:
+        label: Christmas
+        parent: holidays
+      christmas_party:
+        label: Christmas Party
+        parent: holidays
+      halloween:
+        label: Halloween
+        parent: holidays
+      easter:
+        label: Easter
+        parent: holidays
+      thanksgiving:
+        label: Thanksgiving
+        parent: holidays
+      fourth_of_july:
+        label: Fourth of July
+        parent: holidays
+      holidays:
+        label: Holidays
+        parent: holidays
+      housework:
+        label: Housework
+        parent: chores
+      at_the_office:
+        label: At the Office
+        parent: chores
+      sports:
+        label: Sports
+        parent: chores
+  timeplace:
+    question: When and where does it belong? (0-2 terms) — raga prahar/season theory + AllMusic
+    max: 2
+    terms:
+      early_morning:
+        label: Early Morning
+        parent: time_of_day
+      morning:
+        label: Morning
+        parent: time_of_day
+      sunday_afternoon:
+        label: Sunday Afternoon
+        parent: time_of_day
+      late_night:
+        label: Late Night
+        parent: time_of_day
+      nighttime:
+        label: Nighttime
+        parent: time_of_day
+      spring:
+        label: Spring
+        parent: season
+      summer:
+        label: Summer
+        parent: season
+      autumn:
+        label: Autumn
+        parent: season
+      winter:
+        label: Winter
+        parent: season
+      rain_monsoon:
+        label: Rain/Monsoon
+        parent: season
+      storms:
+        label: Storms
+        parent: season
+      city_life:
+        label: City Life
+        parent: place
+      country_life:
+        label: Country Life
+        parent: place
+      at_the_beach:
+        label: At the Beach
+        parent: place
+      desert:
+        label: Desert
+        parent: place
+      forest:
+        label: Forest
+        parent: place
+      mountain:
+        label: Mountain
+        parent: place
+      sea:
+        label: Sea (Water)
+        parent: place
+      space:
+        label: Space
+        parent: place
+      sacred_space:
+        label: Sacred Space
+        parent: place
+      club:
+        label: Club
+        parent: place
+      home:
+        label: Home
+        parent: place
+  character:
+    question: What is its aesthetic / sonic character? (0-2 terms)
+    max: 2
+    terms:
+      hypnotic:
+        parent: sound
+        def: Repetitive, trance-like pull.
+        aliases:
+        - trance-like
+        - mesmerizing
+      cinematic:
+        parent: sound
+        def: Sounds like film music; scene-painting.
+        aliases:
+        - filmic
+      psychedelic:
+        parent: sound
+        def: Mind-bending, kaleidoscopic.
+        aliases:
+        - trippy
+      groovy:
+        parent: sound
+        def: Funky, bouncy feel.
+        aliases:
+        - funky
+        - bouncy
+      harsh:
+        parent: sound
+        def: Abrasive, grating.
+        aliases:
+        - abrasive
+        - grating
+      dissonant:
+        parent: sound
+        def: Clashing, atonal (also a dimension).
+        aliases:
+        - atonal
+        - discordant
+      chaotic:
+        parent: sound
+        def: Cacophonous, disordered.
+        aliases:
+        - cacophonous
+      detached:
+        parent: sound
+        def: Cold, clinical, distant.
+        aliases:
+        - cold
+        - clinical
+      lush:
+        parent: sound
+        def: Rich, full, ornate sound.
+        aliases:
+        - ornate
+        - opulent
+      austere:
+        parent: sound
+        def: Spare, minimal, stripped.
+        aliases:
+        - sparse
+        - minimal
+      raw:
+        parent: sound
+        def: Unpolished, rough, immediate.
+      retro:
+        parent: sound
+        def: Deliberately evokes an earlier era's sound (no longer an alias of nostalgic).
+      sublime:
+        parent: aesthetic
+        def: Beauty mixed with overwhelm or fear (Burke/Kant).
+      solemn:
+        parent: aesthetic
+        def: Ritual seriousness, liturgical weight.
+      ecstatic:
+        parent: aesthetic
+        def: Ecstatic absorption — tarab, trance, gospel shout.
+        aliases:
+        - tarab
+      uncanny:
+        parent: aesthetic
+        def: Familiar made strange.
+      camp:
+        parent: aesthetic
+        def: Knowing excess, kitsch delight.
+        aliases:
+        - kitsch
+      saudade:
+        parent: cultural
+        def: Longing for something absent or lost, loved even in its absence (Portuguese).
+      duende:
+        parent: cultural
+        def: Raw, dark, spirit-possessed intensity (Lorca; flamenco).
+      han:
+        parent: cultural
+        def: Collective grief and endurance (Korean).
+      mono_no_aware:
+        parent: cultural
+        def: Gentle sadness at the passing of things (Japanese).
+      yugen:
+        parent: cultural
+        def: Profound, mysterious depth beyond words (Japanese).
+      wabi_sabi:
+        parent: cultural
+        def: Beauty of the imperfect and transient (Japanese).
+      sehnsucht:
+        parent: cultural
+        def: Intense yearning for an indefinable elsewhere (German).
+      hiraeth:
+        parent: cultural
+        def: Homesickness for a home that may never have been (Welsh).
+dimensions:
+  tension:
+    answers: &id001
+    - none
+    - low
+    - medium
+    - high
+    - very_high
+    to:
+    - 0
+    - 0.25
+    - 0.5
+    - 0.75
+    - 1
+    def: Unease, pressure, suspense - independent of speed or loudness.
+  stirring:
+    answers:
+    - very_settling
+    - settling
+    - neutral
+    - stirring
+    - very_stirring
+    to:
+    - -1
+    - -0.5
+    - 0
+    - 0.5
+    - 1
+    def: How activated it makes a listener feel.
+  musical_happiness:
+    answers: *id001
+    to:
+    - 0
+    - 0.25
+    - 0.5
+    - 0.75
+    - 1
+    def: How much the MUSIC (not the words) expresses happiness.
+  musical_sadness:
+    answers: *id001
+    to:
+    - 0
+    - 0.25
+    - 0.5
+    - 0.75
+    - 1
+    def: How much the MUSIC (not the words) expresses sadness. Happy and sad can both be high (bittersweet).
+  attention_demand:
+    answers: *id001
+    to:
+    - 0
+    - 0.25
+    - 0.5
+    - 0.75
+    - 1
+    def: How much it pulls attention to the foreground.
+  complexity:
+    answers: *id001
+    to:
+    - 0
+    - 0.25
+    - 0.5
+    - 0.75
+    - 1
+    def: Harmonic and structural complexity.
+  accessibility:
+    answers: *id001
+    to:
+    - 0
+    - 0.25
+    - 0.5
+    - 0.75
+    - 1
+    def: Conventional and easy to take in (high) vs challenging (low).
+  rhythmic_complexity:
+    answers: *id001
+    to:
+    - 0
+    - 0.25
+    - 0.5
+    - 0.75
+    - 1
+    def: Odd meters, breaks, fragmented or shifting patterns.
+  anthem:
+    answers: *id001
+    to:
+    - 0
+    - 0.25
+    - 0.5
+    - 0.75
+    - 1
+    def: Recognisable sing-along / floor-filler for a room of guests.
+  lyric_intelligibility:
+    answers:
+    - none
+    - texture
+    - partial
+    - foreground
+    def: Words a listener follows; wordless vocals, chant, buried samples = texture.
+  speech:
+    answers:
+    - none
+    - sampled
+    - spoken
+    - mostly_spoken
+    def: 'Speech, not singing or rapping: sampled = voice fragments used as material (collage, loops, chopped samples); spoken
+      = someone actually talking (conversation, monologue, comedy, radio); mostly_spoken = the track is talk.'
+  groove:
+    answers:
+    - none
+    - straight
+    - swung
+    - syncopated
+    - polyrhythmic
+    def: Rhythmic feel.
+  recording_fidelity:
+    answers:
+    - hi_fi
+    - lo_fi
+    - field
+    - archival
+    def: 'Recording quality as a fact: 78s, tape, field recordings.'
+  purpose:
+    answers:
+    - song
+    - soundtrack
+    - comedy
+    - field_recording
+    - sound_art
+    - ritual
+    - library
+    - other
+    def: What the recording is, as opposed to how it sounds.
+  format:
+    answers:
+    - studio
+    - live
+    - dj_mix
+    - excerpt
+    - skit
+    - medley
+    def: Live audience, continuous mix, excerpt, skit.
+  musical_stance:
+    answers:
+    - sincere
+    - ironic
+    - pastiche
+    - parody
+    def: Whether the music means its surface (default sincere; flag only when clear).

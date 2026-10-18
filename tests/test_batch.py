@@ -1,4 +1,5 @@
 import json
+import sys
 
 import pytest
 from beets import config, ui
@@ -133,3 +134,108 @@ def test_ingest_combines_runs(plugin, lib, tmp_path):
     assert int(one['listen_runs']) == 3 and 0 < float(one['listen_agreement']) < 1
     assert int(lib.get_item(2)['listen_runs']) == 1        # one run failed, one usable
     assert job['ok'] == 2 and [f['id'] for f in job['failed']] == [3]
+
+
+# -- uploaded request files are released when a job finishes ----------------------
+class _File:
+    def __init__(self, name, display_name):
+        self.name, self.display_name = name, display_name
+
+
+class _Job:
+    def __init__(self, state):
+        self.state, self.dest = type('S', (), {'name': state})(), None
+
+
+class _FakeClient:
+    def __init__(self, files, states, quota_fail=0):
+        self.store = dict(files)              # name -> display_name
+        self.states = states                  # job name -> state
+        self.quota_fail = quota_fail
+        outer = self
+
+        class Files:
+            def list(self):
+                return [_File(n, d) for n, d in outer.store.items()]
+
+            def delete(self, name):
+                if name not in outer.store:
+                    raise RuntimeError('404 NOT_FOUND')
+                del outer.store[name]
+
+            def upload(self, file, config):
+                if outer.quota_fail:
+                    outer.quota_fail -= 1
+                    raise RuntimeError('429 RESOURCE_EXHAUSTED file_storage_bytes')
+                name = f'files/u{len(outer.store)}'
+                outer.store[name] = config.display_name
+                return _File(name, config.display_name)
+
+        class Batches:
+            def get(self, name):
+                return _Job(outer.states[name])
+
+            def create(self, model, src, config):
+                outer.states['batches/new'] = 'JOB_STATE_PENDING'
+                return type('J', (), {'name': 'batches/new', 'state': _Job('JOB_STATE_PENDING').state})()
+
+        self.files, self.batches = Files(), Batches()
+
+
+def _runner(plugin, client, jobs):
+    r = BatchRunner(plugin)
+    r._client = client
+    r._save_jobs(jobs)
+    return r
+
+
+def test_refresh_releases_uploads_of_finished_jobs_only(plugin, tmp_path):
+    client = _FakeClient({'files/a': 'requests-a.jsonl', 'files/b': 'requests-b.jsonl',
+                          'files/old': 'requests-old.jsonl'},
+                         {'batches/a': 'JOB_STATE_SUCCEEDED', 'batches/b': 'JOB_STATE_RUNNING',
+                          'batches/old': 'JOB_STATE_SUCCEEDED'})
+    jobs = [{'name': 'batches/a', 'requests': '/x/requests-a.jsonl', 'upload': 'files/a', 'state': 'JOB_STATE_RUNNING', 'item_ids': []},
+            {'name': 'batches/b', 'requests': '/x/requests-b.jsonl', 'upload': 'files/b', 'state': 'JOB_STATE_RUNNING', 'item_ids': []},
+            # saved before the upload name was recorded: matched by display name
+            {'name': 'batches/old', 'requests': '/x/requests-old.jsonl', 'state': 'JOB_STATE_RUNNING', 'item_ids': []}]
+    jobs = _runner(plugin, client, jobs).refresh()
+    assert set(client.store) == {'files/b'}                     # running job keeps its input
+    assert [j.get('upload_deleted') for j in jobs] == [True, None, True]
+
+
+def test_release_tolerates_already_gone_uploads(plugin):
+    client = _FakeClient({}, {})
+    jobs = [{'name': 'batches/a', 'requests': '/x/requests-a.jsonl', 'upload': 'files/gone',
+             'state': 'JOB_STATE_SUCCEEDED', 'item_ids': []}]
+    r = _runner(plugin, client, jobs)
+    assert r.release_uploads(jobs) == 0 and jobs[0]['upload_deleted'] is True
+
+
+def _stub_clips(plugin, monkeypatch):
+    # google-genai is optional in the test env: stub google.genai.types.UploadFileConfig
+    import types as pytypes
+    genai = pytypes.ModuleType('google.genai')
+    genai.types = pytypes.SimpleNamespace(UploadFileConfig=lambda **kw: pytypes.SimpleNamespace(**kw))
+    monkeypatch.setitem(sys.modules, 'google', pytypes.ModuleType('google'))
+    monkeypatch.setitem(sys.modules, 'google.genai', genai)
+    monkeypatch.setitem(sys.modules, 'google.genai.types', genai.types)
+    monkeypatch.setattr(plugin, 'clip_plan', lambda path, length: ([(0.0, 15.0)], None))
+    monkeypatch.setattr(plugin, 'extract_clips', lambda path, windows, clip: open(clip, 'wb').write(b'mp3'))
+
+
+def test_submit_frees_finished_inputs_when_file_quota_is_full(plugin, lib, monkeypatch):
+    _stub_clips(plugin, monkeypatch)
+    client = _FakeClient({'files/done': 'requests-done.jsonl'}, {}, quota_fail=1)
+    jobs = [{'name': 'batches/done', 'requests': '/x/requests-done.jsonl', 'upload': 'files/done',
+             'state': 'JOB_STATE_SUCCEEDED', 'item_ids': [], 'ingested': True}]
+    r = _runner(plugin, client, jobs)
+    r._submit_chunk(list(lib.items()), 'gemini-3.5-flash-lite', jobs)
+    assert 'files/done' not in client.store and jobs[0]['upload_deleted'] is True
+    assert jobs[-1]['name'] == 'batches/new' and jobs[-1]['upload'] in client.store
+
+
+def test_submit_gives_a_clear_error_when_nothing_can_be_freed(plugin, lib, monkeypatch):
+    _stub_clips(plugin, monkeypatch)
+    r = _runner(plugin, _FakeClient({}, {}, quota_fail=2), [])
+    with pytest.raises(ui.UserError, match='file storage is full'):
+        r._submit_chunk(list(lib.items()), 'gemini-3.5-flash-lite', [])

@@ -205,11 +205,27 @@ class BatchRunner:
                     os.remove(clip)
         est = runs * self.estimate_usd(model, audio_s, len(ids))
         client = self.client()
-        up = client.files.upload(file=req_path, config=types.UploadFileConfig(
+        upload = lambda: client.files.upload(file=req_path, config=types.UploadFileConfig(
             mime_type='jsonl', display_name=os.path.basename(req_path)))
+        try:
+            up = upload()
+        except Exception as e:
+            # Uploads count against a per-project file quota (20 GB on the Gemini API) for
+            # 30 days. Free the inputs of finished jobs and try once more.
+            if 'file_storage_bytes' not in str(e):
+                raise
+            self.release_uploads(jobs)
+            self._save_jobs(jobs)
+            try:
+                up = upload()
+            except Exception as e2:
+                if 'file_storage_bytes' not in str(e2):
+                    raise
+                raise ui.UserError('Gemini file storage is full and no finished job inputs are left '
+                                   'to delete; wait for running jobs to finish, then submit again.')
         job = client.batches.create(model=model, src=up.name,
                                     config={'display_name': f'acoustic-enricher-{stamp}'})
-        jobs.append({'name': job.name, 'model': model, 'requests': req_path,
+        jobs.append({'name': job.name, 'model': model, 'requests': req_path, 'upload': up.name,
                      'item_ids': ids, 'est_usd': round(est, 4), 'submitted': time.time(),
                      'state': _state_name(job.state), 'ingested': False,
                      'schema_version': S.SCHEMA_VERSION, 'runs': runs, 'measured': measured})
@@ -225,8 +241,39 @@ class BatchRunner:
             j['state'] = _state_name(job.state)
             if job.dest is not None and getattr(job.dest, 'file_name', None):
                 j['result_file'] = job.dest.file_name
+        self.release_uploads(jobs)
         self._save_jobs(jobs)
         return jobs
+
+    def release_uploads(self, jobs: list[dict]) -> int:
+        """Delete the uploaded request file of every finished job (its results are a separate
+        file). Without this, uploads pile up against the project's file quota. Jobs saved before
+        the upload name was recorded are matched by the upload's display name (the request file's
+        basename). Returns the number of files deleted."""
+        todo = [j for j in jobs if j.get('state') in _DONE_STATES and not j.get('upload_deleted')]
+        if not todo:
+            return 0
+        client = self.client()
+        by_display = None
+        deleted = 0
+        for j in todo:
+            name = j.get('upload')
+            if not name:
+                if by_display is None:
+                    by_display = {f.display_name: f.name for f in client.files.list()}
+                name = by_display.get(os.path.basename(j['requests']))
+            if name:
+                try:
+                    client.files.delete(name=name)
+                    deleted += 1
+                except Exception as e:
+                    if '404' not in str(e) and 'NOT_FOUND' not in str(e):
+                        self.log.warning('Could not delete upload {0}: {1}', name, e)
+                        continue
+            j['upload_deleted'] = True        # deleted, expired, or never found
+        if deleted:
+            self.log.info('Deleted {0} uploaded request file(s) of finished jobs.', deleted)
+        return deleted
 
     def status(self):
         for j in self.refresh():

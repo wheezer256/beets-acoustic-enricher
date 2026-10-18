@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.0.1 (2026-10-18)
+
+### Fixed
+- Batch mode no longer fills the Gemini project file quota. Each chunk's request file
+  (~1.5 GB per 1,000 tracks) was uploaded and never deleted; uploads live 30 days against a
+  20 GB quota, so a full-library run stopped after about 14 chunks with
+  `429 RESOURCE_EXHAUSTED (file_storage_bytes)`. The uploaded file is now recorded with the
+  job and deleted once the job finishes (`listen-batch status` / `collect`). Jobs saved by
+  2.0.0 are matched by the upload's display name.
+- `listen-batch submit` frees finished jobs' uploads and retries once when the file quota is
+  full, and otherwise stops with a clear message instead of a traceback.
+
 ## 2.0.0 (2026-10-16)
 
 ### Ontology v3
